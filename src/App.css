@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+@font-face {
+  font-family: Soho-Thin;
+  src: url(SohoStd-ThinCondensed.otf);
+}
+
+@font-face {
+  font-family: Soho-Light;
+  src: url(SohoStd-LightCondensed.otf);
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  position: absolute;
+  background-color: LightSkyBlue;
+  top: 0px;
+  height: 44px;
+  width: 100%;/*1800px;*/
+  padding: 20px;
+  color: white;
+  z-index: 1000;
+}
+
+.Menu-Bar {
+  position: absolute;
+  top: 94px;
+  left: 5px; /*159px*/
+  width: 100%;
+}
+
+.Menu-Item {
+  width: 100px;
+  height: 20px;
+  position: relative;
+  text-align: center;
+  vertical-align: center;
+  color: white;
+  font: 20px Soho-Light;
+  z-index: 1000;
+}
+
+.Menu-Divider {
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 20px;
+  border-right: 1px solid white;
+}
+
+.Menu-Item:hover {
+  background-color: rgba(135,206,250, .9);
+  box-shadow: 0px 0px 20px LightSkyBlue;
+}
+
+#Last-Item {
+  border-right: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#First-Item {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.hhlogo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  /*box-shadow: 5px 5px 10px black;*/
+}
+
+.hhtitle {
+  color: black;
+  position: absolute;
+  top: 10px;
+  left: 148px;
+  font: 64px Soho-Thin;
+  width: 400px;
+}
+
+.hhsubtitle {
+  color: black;
+  position: absolute;
+  top: 10px;
+  left: 558px;
+  font: 28px Soho-Thin; 
+  text-align: left;
+  width: 360px; 
+}
+
+.Content-Container {
+  position: absolute;
+  border-radius: 10px;
+  background-color: rgba(255,255,255, .3);
+  z-index: 1000;
+  left: 5px;
+  right: 5px;
+  top: 124px;
+  bottom: 30px;
+
+}
+
+.Content-Text {
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+  color: white; 
+  font: 28px Soho-Thin;
+  overflow:auto;
+}
+
+.Copyright {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  color: white;
+  font: 15px Soho-Thin;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
