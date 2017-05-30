@@ -1,0 +1,229 @@
+
+
+body{
+    margin-top: 0px;
+    background-color: black;
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: rgb(0,0,0);
+	height: 200%;
+}
+#maketop{position: absolute; bottom: 2000px; width: 1px; height: 1px; background-color: none; z-index: -5}
+#ring1{position: fixed; left: -12.5em; bottom: -12.5em; width: 40em; height: 40em; border-radius: 50%; -webkit-border-radius: 50%; background-color: black; z-index: -1;}
+.fallcont{box-shadow: 0px 0px 300px white; -webkit-box-shadow: 0px 0px 300px white;}
+.fallcont{animation: glow 10s linear infinite; -webkit-animation: glow 30s linear infinite;}
+#ring2{position: fixed; left: 31.25em; bottom: 31.25em; width: 37.5em; height: 37.5em; border-radius: 50%; -webkit-border-radius: 50%; background-color: black; z-index: -1;}
+
+@keyframes glow{
+	0%{box-shadow: 0px 0px 300px MidnightBlue;}
+	25%{box-shadow: 0px 0px 300px white;}
+	50%{box-shadow: 0px 0px 300px blue;}
+	75%{box-shadow: 0px 0px 300px LightSkyBlue;}
+	100%{box-shadow: 0px 0px 300px MidnightBlue;}
+}
+
+/*@keyframes glow{
+	0%{box-shadow: 0px 0px 300px black;}
+	16%{box-shadow: 0px 0px 300px white;}
+	33%{box-shadow: 0px 0px 300px blue;}
+	50%{box-shadow: 0px 0px 300px green;}
+	67%{box-shadow: 0px 0px 300px yellow;}
+	84%{box-shadow: 0px 0px 300px red;}
+	100%{box-shadow: 0px 0px 300px black;}
+}
+@-webkit-keyframes glow{
+	0%{box-shadow: 0px 0px 300px black;}
+	16%{box-shadow: 0px 0px 300px white;}
+	33%{box-shadow: 0px 0px 300px blue;}
+	50%{box-shadow: 0px 0px 300px green;}
+	67%{box-shadow: 0px 0px 300px yellow;}
+	84%{box-shadow: 0px 0px 300px red;}
+	100%{box-shadow: 0px 0px 300px black;}
+}
+*/
+#fall{position: fixed; left: 0px; bottom: 0px; z-index: 0; background-color: none; box-shadow: none;}
+
+.circle{position: fixed;}
+
+#c1{top: 10px; left: 5em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation: fall 10s linear infinite; -webkit-animation: fall 10s linear infinite;
+}
+#c2{top: 10px; left: 10em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation: fall 7.1s linear infinite; -webkit-animation: fall 7.1s linear infinite;
+}
+#c3{top: 10px; left: 15em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation-delay: 2s; -webkit-animation-delay: 2s; animation: fall 11.2s linear infinite; -webkit-animation: fall 11.2s linear infinite;
+}
+#c4{top: 10px; left: 20em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation: fall 4.3s linear infinite; -webkit-animation: fall 4.3s linear infinite;
+}
+#c5{top: 10px; left: 25em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation: fall 15s linear infinite; -webkit-animation: fall 15s linear infinite;
+}
+#c6{top: 10px; left: 30em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation-delay: 1s; animation: fall 7.4s linear infinite; -webkit-animation-delay: 1s; -webkit-animation: fall 7.4s linear infinite;
+}
+#c7{top: 10px; left: 35em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation: fall 8.5s linear infinite; -webkit-animation: fall 8.5s linear infinite;
+}
+#c8{top: 10px; left: 40em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation-delay: 1s; -webkit-animation-delay: 1s; animation: fall 6.6s linear infinite; -webkit-animation: fall 6.6s linear infinite;
+}
+#c9{top: 10px; left: 45em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation-delay: 6s; -webkit-animation-delay: 6s; animation: fall 7.7s linear infinite; -webkit-animation: fall 7.7s linear infinite;
+}
+#c10{top: 10px; left: 50em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation: fall 10.8s linear infinite; -webkit-animation: fall 10.8s linear infinite;
+}
+#c11{top: 10px; left: 55em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation-delay: 4.9s; -webkit-animation-delay: 4.9s; animation: fall 3s linear infinite; -webkit-animation: fall 3s linear infinite;
+}
+#c12{top: 10px; left: 60em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation: fall 12.1s linear infinite; -webkit-animation: fall 12.1s linear infinite;
+}
+#c13{top: 10px; left: 65em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation: fall 8.2s linear infinite; -webkit-animation: fall 8.2s linear infinite;
+}
+#c14{top: 10px; left: 70em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation-delay: 3s; -webkit-animation-delay: 3s; animation: fall 7.3s linear infinite; -webkit-animation: fall 7.3s linear infinite;
+}
+#c15{top: 10px; left: 75em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation: fall 5.4s linear infinite; -webkit-animation: fall 5.4s linear infinite;
+}
+#c16{top: 10px; left: 80em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation-delay: 1s; -webkit-animation-delay: 1s; animation: fall 14.9s linear infinite; -webkit-animation: fall 14.9s linear infinite;
+}
+#c17{top: 10px; left: 85em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation: fall 8.6s linear infinite; -webkit-animation: fall 8.6s linear infinite;
+}
+#c18{top: 10px; left: 90em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation-delay: .5s; -webkit-animation-delay: .5s; animation: fall 10.7s linear infinite; -webkit-animation: fall 10.7s linear infinite;
+}
+#c19{top: 10px; left: 95em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation: fall 5.8s linear infinite; -webkit-animation: fall 5.8s linear infinite;
+}
+#c20{top: 10px; left: 100em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation: fall 3.9s linear infinite; -webkit-animation: fall 3.9s linear infinite;
+}
+#c21{top: 10px; left: 105em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation: fall 12.1s linear infinite; -webkit-animation: fall 12.1s linear infinite;
+}
+#c22{top: 10px; left: 110em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation-delay: 5s; -webkit-animation-delay: 5s; animation: fall 4.2s linear infinite; -webkit-animation: fall 4.2s linear infinite;
+}
+#c23{top: 10px; left: 115em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation: fall 14.8s linear infinite; -webkit-animation: fall 14.8s linear infinite;
+}
+#c24{top: 10px; left: 120em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation-delay: 3s; -webkit-animation-delay: 3s; animation: fall 8.4s linear infinite; -webkit-animation: fall 8.4s linear infinite;
+}
+#c25{top: 10px; left: 125em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation: fall 7.5s linear infinite; -webkit-animation: fall 7.5s linear infinite;
+}
+#c26{top: 10px; left: 130em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation-delay: 8s; -webkit-animation-delay: 8s; animation: fall 6.7s linear infinite; -webkit-animation: fall 6.7s linear infinite;
+}
+#c27{top: 10px; left: 135em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation: fall 10.5s linear infinite; -webkit-animation: fall 10.5s linear infinite;
+}
+#c28{top: 10px; left: 140em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation: fall 3.6s linear infinite; -webkit-animation: fall 3.6s linear infinite;
+}
+#c0{top: 10px; left: 0em; border-radius: 50%; width: 10px; height: 10px; z-index: 1; 
+	background-color: none; animation-delay: 1s; -webkit-animation-delay: 1s; animation: fall 8.7s linear infinite; -webkit-animation: fall 8.7s linear infinite;
+}
+
+@keyframes swell{
+	from {box-shadow: 10px -10px black;}
+    to {box-shadow: 10px -10px 10px white;}
+}
+
+@keyframes fall{
+ 	from{top: 110%; box-shadow: 10px -10px rgba(256, 256, 256, 0);}
+ 	to{top: -10%; box-shadow: 10px -10px 10px rgba(256, 256, 256, 256);}
+}
+@-webkit-keyframes fall{
+ 	from{top: 110%; box-shadow: 10px -10px rgba(256, 256, 256, 0);}
+ 	to{top: -10%; box-shadow: 10px -10px 10px rgba(256, 256, 256, 256);}
+}
+
+.cback{position: fixed; border-radius: 50%; width: 5px; height: 5px; z-index: -6; 
+	background-color: none; animation: backfall linear infinite; -webkit-animation: backfall linear infinite;}
+#cb1{left: 1em; animation-duration: 5.95s; animation-delay: 2s;}
+#cb2{left: 4em; animation-duration: 10.05s; animation-delay: 1s;}
+#cb3{left: 7em; animation-duration: 5.95s; animation-delay: 3s;}
+#cb4{left: 10em; animation-duration: 2.35s; animation-delay: 0s;}
+#cb5{left: 13em; animation-duration: 12.45s; animation-delay: 1.5s;}
+#cb6{left: 16em; animation-duration: 4.57s; animation-delay: 2.75s;}
+#cb7{left: 19em; animation-duration: 6.05s; animation-delay: 1.07s;}
+#cb8{left: 22em; animation-duration: 9.95s; animation-delay: 0s;}
+#cb9{left: 25em; animation-duration: 4.05s; animation-delay: 0s;}
+#cb10{left: 28em; animation-duration: 8.95s; animation-delay: 0s;}
+#cb11{left: 31em; animation-duration: 4.05s; animation-delay: 2s;}
+#cb12{left: 34em; animation-duration: 6.95s; animation-delay: 1s;}
+#cb13{left: 37em; animation-duration: 5.35s; animation-delay: 3s;}
+#cb14{left: 40em; animation-duration: 5.25s; animation-delay: 0s;}
+#cb15{left: 43em; animation-duration: 7.45s; animation-delay: 1.5s;}
+#cb16{left: 46em; animation-duration: 8.57s; animation-delay: 0s;}
+#cb17{left: 49em; animation-duration: 5.05s; animation-delay: 1.07s;}
+#cb18{left: 52em; animation-duration: 7.95s; animation-delay: 0s;}
+#cb19{left: 55em; animation-duration: 5.05s; animation-delay: 2s;}
+#cb20{left: 58em; animation-duration: 11.95s; animation-delay: .1s;}
+#cb21{left: 61em; animation-duration: 12.15s; animation-delay: 2s;}
+#cb22{left: 64em; animation-duration: 4.65s; animation-delay: 1s;}
+#cb23{left: 67em; animation-duration: 13.35s; animation-delay: 0s;}
+#cb24{left: 70em; animation-duration: 7.25s; animation-delay: .1s;}
+#cb25{left: 73em; animation-duration: 13.45s; animation-delay: 0s;}
+#cb26{left: 74em; animation-duration: 10.57s; animation-delay: 1.5s;}
+#cb27{left: 77em; animation-duration: 5.45s; animation-delay: 0s;}
+#cb28{left: 80em; animation-duration: 10.95s; animation-delay: 1.07s;}
+#cb29{left: 83em; animation-duration: 6.05s; animation-delay: 2s;}
+#cb30{left: 86em; animation-duration: 13.96s; animation-delay: 0s;}
+#cb31{left: 89em; animation-duration: 14.15s; animation-delay: 2s;}
+#cb32{left: 92em; animation-duration: 5.65s; animation-delay: 1s;}
+#cb33{left: 95em; animation-duration: 12.35s; animation-delay: 0s;}
+#cb34{left: 98em; animation-duration: 8.25s; animation-delay: .1s;}
+#cb35{left: 101em; animation-duration: 12.45s; animation-delay: 0s;}
+#cb36{left: 104em; animation-duration: 11.57s; animation-delay: 1.5s;}
+#cb37{left: 107em; animation-duration: 6.45s; animation-delay: 0s;}
+#cb38{left: 110em; animation-duration: 19.95s; animation-delay: 1.07s;}
+#cb39{left: 113em; animation-duration: 8.05s; animation-delay: 2s;}
+#cb40{left: 116em; animation-duration: 13.96s; animation-delay: 0s;}
+#cb41{left: 119em; animation-duration: 13.15s; animation-delay: 2s;}
+#cb42{left: 122em; animation-duration: 5.65s; animation-delay: 1s;}
+#cb43{left: 125em; animation-duration: 12.35s; animation-delay: 0s;}
+#cb44{left: 128em; animation-duration: 8.25s; animation-delay: .1s;}
+#cb45{left: 131em; animation-duration: 12.45s; animation-delay: 0s;}
+#cb46{left: 134em; animation-duration: 11.57s; animation-delay: 1.5s;}
+#cb47{left: 137em; animation-duration: 6.45s; animation-delay: 2s;}
+#cb48{left: 140em; animation-duration: 9.95s; animation-delay: 1.07s;}
+#cb49{left: 143em; animation-duration: 7.05s; animation-delay: 0s;}
+
+
+@keyframes backfall{
+ 	from{top: 110%; box-shadow: 10px -10px rgba(256, 256, 256, 0);}
+ 	to{top: -10%; box-shadow: 10px -10px 10px rgba(256, 256, 256, 256);}
+}
+@-webkit-keyframes backfall{
+ 	from{top: 110%; box-shadow: 10px -10px rgba(256, 256, 256, 0);}
+ 	to{top: -10%; box-shadow: 10px -10px 10px rgba(256, 256, 256, 256);}
+}
+/*@keyframes fall{
+ 	from{top: 110%; box-shadow: 10px -10px rgba(256, 256, 256, 0);}
+ 	to{top: -10%; box-shadow: 10px -10px 10px (256, 256, 256, 256);}
+}
+@-webkit-keyframes fall{
+ 	from{top: 110%; box-shadow: 10px -10px black;}
+ 	to{top: -10%; box-shadow: 10px -10px 10px white;}
+}*/
+
+#jstest{font: 18px Courier; position: fixed; top: 100px; left: 100px; color: white; box-shadow: 0px 0px 10px white;}
+.menu{font: 18px Courier; position: fixed; top: 0px; left: 0px; height: 50px; background-color: none; color: white;}
+li{list-style-type: none;}
+.mainmenu{float: left; margin-left: 10px; margin-right: 10px; animation: pop 5s linear alternate infinite;}
+.mainmenu:hover{color: red;}
+.links{text-decoration: none; color: white;}
+.links:hover{color: red;}
+@keyframes pop{
+	0%{text-shadow: 0px 0px 0px white;}
+	100%{text-shadow: 0px 0px 50px white;}
+}
