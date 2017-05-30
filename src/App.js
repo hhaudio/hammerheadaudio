@@ -6,6 +6,7 @@ import Content from "./Content.js";
 import MenuItem from "./MenuItem.js";
 
 class App extends Component {
+
   state = {NavPage: "Home", ContentVisible: false};
 
   constructor(props){
@@ -31,8 +32,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="Logo-Frame"/>
+        <img src="hhlogo.png" className="hhlogo" alt="logo" />
         <div className="App-header">
-          <img src="hhlogo.png" className="hhlogo" alt="logo" />
           <div className="hhtitle">Hammerhead Audio</div>
           <div className="hhsubtitle">Audio Hardware and Software Designs by Emmett Palaima</div>
         </div>
@@ -45,7 +47,7 @@ class App extends Component {
           <MenuItem text="Contact" idfl="Last-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
         </div>
         <Void/>
-        <Content isVisible={this.state.ContentVisible}/>
+        <Content isVisible={this.state.ContentVisible} nav={this.state.NavPage}/>
         <div className="Copyright">© Emmett Palaima 2017</div>
       </div>
     );
