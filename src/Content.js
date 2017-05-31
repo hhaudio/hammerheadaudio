@@ -21,7 +21,7 @@ class Content extends Component {
 		    	<div className="Content-Container">
 		    	<div className="Content-Text-Box">
 		    	<div className="Content-Title">Bio</div>
-		    	<img src="headshot.jpg" className="Bio-Headshot" alt="logo"/>
+		    	<img src="headshot.jpg" className="Bio-Headshot" alt="Headshot"/>
 		    	<div className="Content-Text">
 					semiotics fetishism media industrial grade knife city refrigerator sunglasses neural alcohol nodal point. smart- -space Tokyo ablative sunglasses sprawl industrial grade stimulate claymore mine tattoo numinous. geodesic engine convenience store narrative industrial grade wristwatch neon wristwatch kanji tattoo voodoo god. rebar Chiba engine jeans range-rover numinous kanji rifle katana vinyl -ware. 
 

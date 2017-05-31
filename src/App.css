@@ -15,7 +15,7 @@
 .Menu-Bar {
   position: absolute;
   top: 94px;
-  left: 5px; /*159px*/
+  left: 20px; /*159px*/
   width: 100%;
   min-width: 600px;
 }
@@ -113,7 +113,7 @@
 .Copyright {
   position: fixed;
   bottom: 5px;
-  right: 5px;
+  right: 25px;
   color: white;
   font: 15px Soho-Thin;
 }
