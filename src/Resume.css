@@ -1,0 +1,74 @@
+.Resume-Section-Header {
+  position: relative;
+  font: 22px Century Gothic; 
+  font-weight: bold;
+  left: 10px;
+  text-align: left;
+}
+
+.Resume-Header {
+  position: relative;
+  font: 25px Century Gothic; 
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 15px;
+  text-align: left; 
+  margin-bottom: 10px;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-radius: 10px;
+}
+
+.Resume-Download {
+  font: 15px Century Gothic;
+  font-weight: normal;
+  margin-top: 0px;
+}
+
+.Resume-Entry-Header {
+  position: relative;
+  font: 15px Century Gothic;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 10px;
+  text-align: left; 
+}
+
+#date {
+  text-align: left;
+  float: left;
+}
+
+.Resume-Text {
+  position: relative;
+  font: 15px Century Gothic;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 10px;
+  text-align: left;  
+}
+
+.Resume-Section {
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-radius: 10px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+}
+
+.Resume-List-Text {
+  position: relative;
+  list-style-type: circle;
+  font: 15px Century Gothic;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 10px;
+  text-align: left;  
+}
+.Resume-List {
+  list-style-type: circle;
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

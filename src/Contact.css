@@ -1,0 +1,13 @@
+.Contact-Header {
+  position: relative;
+  font: 25px Century Gothic; 
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 15px;
+  text-align: left; 
+  margin-bottom: 10px;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-radius: 10px;
+  max-width: 500px;
+}

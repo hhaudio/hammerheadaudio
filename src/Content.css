@@ -1,0 +1,84 @@
+
+.Content-Container {
+  position: absolute;
+  border-radius: 10px;
+  background-color: rgba(255,255,255, .3);
+  z-index: 1000;
+  left: 5px;
+  right: 5px;
+  top: 124px;
+  bottom: 30px;
+}
+
+#CC-Brighter {
+  background-color: rgba(255,255,255, .9);
+}
+
+.Content-Title {
+  position: relative;
+  font: 28px Soho-Thin;
+  font-weight: bold;
+  left: 20px;
+  text-align: left;
+}
+
+.Content-Text {
+  position: relative;
+  /*font: 15px Century Gothic;*/
+  font: 18px HelveticaNeue-Thin;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 20px;
+  text-align: left;    
+}
+
+.Content-Text-Box {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+  color: white; 
+  font: 28px Soho-Thin;
+  padding-right: 10px;
+  overflow:auto;
+}
+
+#CT-Black {
+  color: black;
+}
+
+.Designs-Title {
+  position: relative;
+  font: 28px Soho-Thin;
+  font-weight: bold;
+  left: 20px;
+  text-align: left;
+}
+
+.Designs-Text {
+  position: relative;
+  font: 18px HelveticaNeue-Thin;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 20px;
+  text-align: left;  
+}
+
+.Designs-Video-Container {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  top: 10px;
+  left: 20px;
+  width:640px;
+  height: 350px;
+  box-shadow: 0px 0px 20px LightSkyBlue;
+}
+
+.Designs-Video {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+

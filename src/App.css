@@ -12,22 +12,12 @@
   src: url(SohoStd-LightCondensed.otf);
 }
 
-.App-header {
-  position: absolute;
-  background-color: LightSkyBlue;
-  top: 0px;
-  left: 138px;
-  height: 84px;
-  width: 100%;/*1800px;*/
-  color: white;
-  z-index: 1000;
-}
-
 .Menu-Bar {
   position: absolute;
   top: 94px;
   left: 5px; /*159px*/
   width: 100%;
+  min-width: 600px;
 }
 
 .Menu-Item {
@@ -39,13 +29,15 @@
   color: white;
   font: 20px Soho-Light;
   z-index: 1000;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .Menu-Divider {
   position: relative;
   float: left;
   width: 100px;
-  height: 20px;
+  height: 24px;
   border-right: 1px solid white;
 }
 
@@ -79,6 +71,18 @@
   z-index: 1000;
 }
 
+.App-header {
+  position: absolute;
+  background-color: LightSkyBlue;
+  top: 0px;
+  left: 0px;
+  height: 84px;
+  width: 110%;/*1800px;*/
+  min-width: 1000px;
+  color: white;
+  z-index: 1000;
+}
+
 .hhlogo {
   position: absolute;
   z-index: 1000;
@@ -91,7 +95,7 @@
   color: black;
   position: absolute;
   top: 10px;
-  left: 10px;
+  left: 148px;
   font: 64px Soho-Thin;
   width: 400px;
 }
@@ -100,73 +104,10 @@
   color: black;
   position: absolute;
   top: 10px;
-  left: 420px;
+  left: 558px;
   font: 28px Soho-Thin; 
   text-align: left;
   width: 360px; 
-}
-
-.Content-Container {
-  position: absolute;
-  border-radius: 10px;
-  background-color: rgba(255,255,255, .3);
-  z-index: 1000;
-  left: 5px;
-  right: 5px;
-  top: 124px;
-  bottom: 30px;
-}
-
-#CC-Brighter {
-  background-color: rgba(255,255,255, .9);
-}
-
-.Content-Text {
-  position: absolute;
-  left: 10px;
-  right: 10px;
-  top: 10px;
-  bottom: 10px;
-  color: white; 
-  font: 28px Soho-Thin;
-  overflow:auto;
-}
-
-#CT-Black {
-  color: black;
-}
-
-.Designs-Title {
-  position: relative;
-  font: 28px HelveticaNeue-Thin;
-  left: 50px;
-  text-align: left;
-}
-
-.Designs-Text {
-  position: relative;
-  font: 18px HelveticaNeue-Thin;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  left: 50px;
-  text-align: left;  
-}
-
-.Designs-Video-Container {
-  position: relative;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  top: 10px;
-  left: 50px;
-  width:640px;
-  height: 350px;
-  box-shadow: 0px 0px 50px LightSkyBlue;
-}
-
-.Designs-Video {
-  position: absolute;
-  top: 0px;
-  left: 0px;
 }
 
 .Copyright {

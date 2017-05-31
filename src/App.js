@@ -32,9 +32,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="Logo-Frame"/>
-        <img src="hhlogo.png" className="hhlogo" alt="logo" />
         <div className="App-header">
+          <img src="hhlogo.png" className="hhlogo" alt="logo" />
           <div className="hhtitle">Hammerhead Audio</div>
           <div className="hhsubtitle">Audio Hardware and Software Designs by Emmett Palaima</div>
         </div>
@@ -53,5 +52,8 @@ class App extends Component {
     );
   }
 }
+
+        //<div className="Logo-Frame"/>
+        //<img src="hhlogo.png" className="hhlogo" alt="logo" />
 
 export default App;
