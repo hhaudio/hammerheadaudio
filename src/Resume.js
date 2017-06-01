@@ -4,6 +4,7 @@ import "./Resume.css"
 class Resume extends Component {
   render() {
     return (
+    	<div className="Content-Container" id="CC-Brighter">
     		<div className="Content-Text-Box" id="CT-Black">
     			<div className="Resume-Header">
     				<div>Emmett Palaima Resume</div>
@@ -94,6 +95,7 @@ class Resume extends Component {
     				<div className="Resume-Text">Was selected for the Dean’s List at Berklee College of Music for Every Semester Attended </div>
     			</div> 			
     		</div>
+    	</div>
     	);
 	}
 }

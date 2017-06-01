@@ -5,24 +5,24 @@ import "./Content.css"
 class Music extends Component {
   render() {
     return (
-    		<div className="Content-Text-Box">
-    			<div className="Content-Title">Shark Rock</div>
-    			<div className="Content-Text">Shark Rock is a band...</div>
-    			<div className="Bandcamp-Container">
-                    Loading Bandcamp Player...
-    				<iframe className="Bandcamp-Embed" src="https://bandcamp.com/EmbeddedPlayer/album=485363534/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" SharkRock><a href="http://summersending.bandcamp.com/album/summers-ending-2">Summer&#39;s Ending by Shark Rock!</a></iframe>
-    			</div>
-    			<div className="Content-Title">Elizabeth Colour Wheel</div>
-    			<div className="Content-Text">Elizabeth Colour Wheel is a band...</div>
-    			<div className="Bandcamp-Container">
-                    Loading Bandcamp Player...
-    				<iframe className="Bandcamp-Embed" src="https://bandcamp.com/EmbeddedPlayer/album=4021775658/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" ECW><a href="http://elizabethcolourwheel.bandcamp.com/album/single">Single by Elizabeth Colour Wheel</a></iframe>
-    			</div>
-    		</div>
+            <div className="Content-Container">
+        		<div className="Content-Text-Box">
+        			<div className="Content-Title">Shark Rock</div>
+        			<div className="Content-Text">Shark Rock is a band...</div>
+        			<div className="Bandcamp-Container">
+                        Loading Bandcamp Player...
+        				<iframe className="Bandcamp-Embed" src="https://bandcamp.com/EmbeddedPlayer/album=485363534/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"><a href="http://summersending.bandcamp.com/album/summers-ending-2">Summer&#39;s Ending by Shark Rock!</a></iframe>
+        			</div>
+        			<div className="Content-Title">Elizabeth Colour Wheel</div>
+        			<div className="Content-Text">Elizabeth Colour Wheel is a band...</div>
+        			<div className="Bandcamp-Container">
+                        Loading Bandcamp Player...
+        				<iframe className="Bandcamp-Embed" src="https://bandcamp.com/EmbeddedPlayer/album=4021775658/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"><a href="http://elizabethcolourwheel.bandcamp.com/album/single">Single by Elizabeth Colour Wheel</a></iframe>
+        			</div>
+        		</div>
+            </div>
     	);
 	}
 }
 
 export default Music;
-
-//style={{border: 0, width: "100%", height: 120, top: 200, position: "relative"}} 

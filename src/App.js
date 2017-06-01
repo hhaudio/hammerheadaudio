@@ -18,9 +18,6 @@ class App extends Component {
   }
 
   navClicked(page) {
-    console.log("Clicked");
-    console.log(page);
-    console.log(this.state.NavPage);
     if(this.state.NavPage !== page){
       this.setState({NavPage: page, ContentVisible: true});
     }
