@@ -3,6 +3,9 @@ import "./Music.css"
 import "./Content.css"
 
 class Music extends Component {
+  shouldComponentUpdate(){
+    return false;
+  }
   render() {
     return (
             <div className="Content-Container">

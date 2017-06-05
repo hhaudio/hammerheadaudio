@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
 
 class Designs extends Component {
+  shouldComponentUpdate(){
+    return false;
+  }
+	
   	render() {
     	return (
 			<div className="Content-Container">
