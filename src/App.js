@@ -4,6 +4,10 @@ import './App.css';
 import Void from "./Void.js";
 import Content from "./Content.js";
 import MenuItem from "./MenuItem.js";
+import ReactPlayer from 'react-player';
+
+const youtubeConfig = { preload: true };
+const AbyssPlayer = <ReactPlayer youtubeConfig={youtubeConfig} className="Designs-Video" url='https://www.youtube.com/watch?v=Hr8m814zwwc' controls/>;
 
 class App extends Component {
 
@@ -43,7 +47,7 @@ class App extends Component {
           <MenuItem text="Contact" idfl="Last-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
         </div>
         <Void/>
-        <Content isVisible={this.state.ContentVisible} nav={this.state.NavPage}/>
+        <Content isVisible={this.state.ContentVisible} AbyssPlayer={AbyssPlayer} nav={this.state.NavPage}/>
         <div className="Copyright">© Emmett Palaima 2017</div>
       </div>
     );

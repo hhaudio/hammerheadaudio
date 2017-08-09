@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Bio extends Component {
   render() {
     return (
-    			<div className="Content-Container">
+    			<div style={{display: this.props.display}} className="Content-Container">
 		    	<div className="Content-Text-Box">
 		    	<div className="Content-Title">Bio</div>
 		    	<img src="headshot.jpg" className="Bio-Headshot" alt="Headshot"/>
