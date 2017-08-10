@@ -4,7 +4,7 @@ import "./Resume.css"
 class Resume extends Component {
   render() {
     return (
-    	<div style={{display: this.props.display}} className="Content-Container" id="CC-Brighter">
+    	<div style={{display: this.props.display}} className="Content-Container" id="CC-Duller">
     		<div className="Content-Text-Box" id="CT-Black">
     			<div className="Resume-Header">
     				<div>Emmett Palaima Resume</div>
