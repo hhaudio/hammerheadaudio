@@ -9,7 +9,7 @@ class Music extends Component {
   
   render() {
     return (
-            <div style={{display: this.props.display}} className="Content-Container">
+            <div style={{display: this.props.display, minWidth: "760px"}} className="Content-Container">
         		<div className="Content-Text-Box">
         			<div className="Content-Title">Shark Rock</div>
         			<div className="Content-Text">Shark Rock is a band...</div>

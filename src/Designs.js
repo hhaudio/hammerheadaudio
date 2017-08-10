@@ -10,7 +10,7 @@ class Designs extends Component {
 	
   	render() {
     	return (
-			<div style={{display: this.props.display}} className="Content-Container">
+			<div style={{display: this.props.display, minWidth: "700px"}} className="Content-Container">
 	    		<div className="Content-Text-Box">
 	    			<div className="Designs-Title">The Abyss</div>
 	    			<div className="Designs-Text">The Abyss is a plugin designed around the idea of stretching a reverb algorithm to the point of breaking. 
