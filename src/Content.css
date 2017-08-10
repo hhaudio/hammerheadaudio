@@ -4,7 +4,7 @@
 .Content-Container {
   position: absolute;
   border-radius: 10px;
-  background-color: rgba(255,255,255, .2);
+  background-color: rgba(255,255,255, .95);/*rgba(135,206,250, .9);/*LightSkyBlue; /*rgba(255,255,255, .9);*/
   z-index: 1000;
   left: 20px;
   right: 20px;
@@ -43,9 +43,9 @@
   right: 10px;
   top: 10px;
   bottom: 10px;
-  color: white; 
+  color: black; 
   font: 28px Soho-Thin;
-  padding-right: 10px;
+  padding-right: 40px;
   overflow:auto;
   display: inherit;
 }
@@ -57,7 +57,7 @@
 .Designs-Title {
   position: relative;
   font: 28px Soho-Thin;
-  color: white;
+  color: black;
   font-weight: bold;
   left: 20px;
   text-align: left;
@@ -68,14 +68,19 @@
 
 .Designs-Text {
   position: relative;
-  font: 18px HelveticaNeue-Thin;
-  color: white;
+  font: 18px HelveticaNeue-Thin; /*formerly 18px HelveticaNeue-Thin*/
+  color: black;
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-right: 300px;
-  left: 20px;
+  /*padding-right: 5px;*/
+  padding-left: 10px;
+  padding-right: 10px;
+  left: 12px;
+  /*max-width: 635px;*/
   text-align: left; 
   display: inherit; 
+  /*background-color: rgba(255,255,255, .9);*/
+  border-radius: 5px;
 }
 
 .Designs-Video-Container {

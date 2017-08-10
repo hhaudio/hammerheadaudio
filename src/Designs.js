@@ -14,12 +14,13 @@ class Designs extends Component {
 	    		<div className="Content-Text-Box">
 	    			<div className="Designs-Title">The Abyss</div>
 	    			<div className="Designs-Text">The Abyss is a plugin designed around the idea of stretching a reverb algorithm to the point of breaking. 
-	    			<br/>Including such features as 
-	    			decorrealted modulation of the internal delay line parameters, 
+	   				Built around eight parallel delay lines, a major feature is the ability to modulate parameters separately for each line,
+	   				creating spaces that subtley (or not so subtley) shift and ripple beneath your ears. 
+	   				It also includes such features as 
 	    			envelope follower modulation, 
 	    			built in distortion 
 	    			and room sizes so large that individual delay taps become audible,
-	    			it is useful both for spacialization and as a powerful sound design tool.
+	    			making it useful both for spacialization and as a powerful sound design tool.
 	    			</div>
 	    			<div className="Designs-Video-Container">
 	    				Loading Youtube Player...

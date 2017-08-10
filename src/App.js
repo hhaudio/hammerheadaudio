@@ -48,7 +48,7 @@ class App extends Component {
         </div>
         <Void/>
         <Content isVisible={this.state.ContentVisible} AbyssPlayer={AbyssPlayer} nav={this.state.NavPage}/>
-        <div className="Copyright">© Emmett Palaima 2017</div>
+        <div className="Copyright">© Emmett Palaima 2017, Page Made With ReactJS</div>
       </div>
     );
   }
