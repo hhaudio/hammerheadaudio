@@ -8,7 +8,7 @@ class Resume extends Component {
     		<div className="Content-Text-Box" id="CT-Black">
     			<div className="Resume-Header">
     				<div>Emmett Palaima Resume</div>
-    				<a className="Resume-Download" href="epalaima_resume.pdf" download>Download PDF</a>
+    				<a className="Resume-Text" id="LinkedIn" style={{left: "0px"}} href="epalaima_resume.pdf" download>Download PDF</a>
     			</div>
     			<div className="Resume-Section">
 	    			<div className="Resume-Section-Header">Work Experience</div>
