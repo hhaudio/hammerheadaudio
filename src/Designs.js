@@ -7,10 +7,21 @@ class Designs extends Component {
   /*shouldComponentUpdate(){
     return false;
   }*/
-	
+
   	render() {
+  		var playerWidth;
+  		var playerHeight;
+
+  		if(this.props.width < 740 || this.props.height < 380){
+  		 	playerWidth = 384;
+  		 	playerHeight = 216;
+  		}
+  		else{
+  			playerWidth = 640;
+  			playerHeight = 360;
+  		}
     	return (
-			<div style={{display: this.props.display, minWidth: "700px"}} className="Content-Container">
+			<div style={{display: this.props.display, minWidth: "464px" , minHeight: "226px"}} className="Content-Container">
 	    		<div className="Content-Text-Box">
 	    			<div className="Designs-Title">The Abyss</div>
 	    			<div className="Designs-Text">The Abyss is a plugin designed around the idea of stretching a reverb algorithm to the point of breaking. 
@@ -22,9 +33,9 @@ class Designs extends Component {
 	    			and room sizes so large that individual delay taps become audible,
 	    			making it useful both for spacialization and as a powerful sound design tool.
 	    			</div>
-	    			<div className="Designs-Video-Container">
+	    			<div style={{height: playerHeight, width: playerWidth}} className="Designs-Video-Container">
 	    				Loading Youtube Player...
-	    				{this.props.AbyssPlayer}
+	    				<ReactPlayer height={playerHeight} width={playerWidth} className="Designs-Video" url='https://www.youtube.com/watch?v=Hr8m814zwwc' controls/>
 	    			</div>
 	    		</div>
 	    	</div>

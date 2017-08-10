@@ -89,12 +89,15 @@
 
 .Designs-Video-Container {
   position: relative;
-  padding-top: 5px;
+  /*padding-top: 5px;
   padding-bottom: 5px;
+  */
   top: 10px;
   left: 20px;
+  /*
   width:640px;
   height: 350px;
+  */
   box-shadow: 0px 0px 20px LightSkyBlue;
   background-color: rgba(135,206,250, .7);
   font: 18px HelveticaNeue-Thin;

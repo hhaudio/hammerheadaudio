@@ -13,8 +13,8 @@ class Content extends Component {
   render() {
     return(
       <div>
-        <Designs display={this.props.nav === "Designs" ? 'block' : 'none'} AbyssPlayer={this.props.AbyssPlayer}/>
-        <Music display={this.props.nav === "Music" ? 'block' : 'none'}/>
+        <Designs width={this.props.width} height={this.props.height} display={this.props.nav === "Designs" ? 'block' : 'none'}/>
+        <Music width={this.props.width} height={this.props.height} display={this.props.nav === "Music" ? 'block' : 'none'}/>
         <Bio display={this.props.nav === "Bio" ? 'block' : 'none'}/>
         <Resume display={this.props.nav === "Resume" ? 'block' : 'none'}/>
         <Contact display={this.props.nav === "Contact" ? 'block' : 'none'}/>

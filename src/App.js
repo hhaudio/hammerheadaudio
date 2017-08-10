@@ -7,27 +7,32 @@ import Content from "./Content.js";
 import MenuItem from "./MenuItem.js";
 import ReactPlayer from 'react-player';
 
-const youtubeConfig = { preload: true };
-const AbyssPlayer = <ReactPlayer youtubeConfig={youtubeConfig} className="Designs-Video" url='https://www.youtube.com/watch?v=Hr8m814zwwc' controls/>;
-
 class App extends Component {
 
-  state = {NavPage: "Home", ContentVisible: false};
+  state = {NavPage: "Home", width: 0, height: 0};
 
   constructor(props){
     super(props);
     this.state={
       NavPage: "Home",
-      ContentVisible: false
+      width: window.innerWidth,
+      height: window.innerHeight
     }
+    window.addEventListener("resize", this.updateDimensions.bind(this));
+  }
+
+  updateDimensions() {
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+    this.setState({width: window.innerWidth, height: window.innerHeight});
   }
 
   navClicked(page) {
     if(this.state.NavPage !== page){
-      this.setState({NavPage: page, ContentVisible: true});
+      this.setState({NavPage: page});
     }
     else{
-      this.setState({NavPage: "Home", ContentVisible: false});
+      this.setState({NavPage: "Home"});
     }
   }
 
@@ -48,7 +53,7 @@ class App extends Component {
           <MenuItem text="Contact" idfl="Last-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
         </div>
         <Void/>
-        <Content isVisible={this.state.ContentVisible} AbyssPlayer={AbyssPlayer} nav={this.state.NavPage}/>
+        <Content width={this.state.width} height={this.state.height} nav={this.state.NavPage}/>
         <div className="Copyright">© Emmett Palaima 2017, Page Made With ReactJS</div>
       </div>
     );
