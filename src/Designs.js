@@ -12,7 +12,7 @@ class Designs extends Component {
   		var playerWidth;
   		var playerHeight;
 
-  		if(this.props.width < 740 || this.props.height < 380){
+  		if(this.props.width < 740 || this.props.height < 480){
   		 	playerWidth = 384;
   		 	playerHeight = 216;
   		}
