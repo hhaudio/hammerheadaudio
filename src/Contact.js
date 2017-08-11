@@ -4,7 +4,7 @@ class Contact extends Component {
   render() {
     return (
     	<div style={{display: this.props.display}} className="Content-Container" id="CC-Duller">
-    		<div className="Content-Text-Box" id="CT-Black">
+    		<div className="Content-Text-Box" id="CT-Black" style={{paddingRight: "20px"}}>
     			<div className="Contact-Header">
 	    			<div style={{position: "relative", left: 10}}>Contact</div>
 	    			<div className="Resume-Text">emmett@hammerheadaudio.com</div>

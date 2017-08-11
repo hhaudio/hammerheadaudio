@@ -5,7 +5,7 @@ class Resume extends Component {
   render() {
     return (
     	<div style={{display: this.props.display}} className="Content-Container" id="CC-Duller">
-    		<div className="Content-Text-Box" id="CT-Black">
+    		<div className="Content-Text-Box" id="CT-Black" style={{paddingRight: "20px"}}>
     			<div className="Resume-Header">
     				<div>Emmett Palaima Resume</div>
     				<a className="Resume-Text" id="LinkedIn" style={{left: "0px"}} href="epalaima_resume.pdf" download>Download PDF</a>
