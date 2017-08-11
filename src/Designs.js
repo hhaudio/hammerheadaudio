@@ -11,8 +11,11 @@ class Designs extends Component {
   	render() {
   		var playerWidth;
   		var playerHeight;
-
-  		if(this.props.width < 740 || this.props.height < 480){
+  		if(this.props.width < 460 || this.props.height < 230){
+  			playerHeight = 162;
+  			playerWidth = 288;
+  		}
+  		else if(this.props.width < 740 || this.props.height < 480){
   		 	playerWidth = 384;
   		 	playerHeight = 216;
   		}
@@ -21,7 +24,7 @@ class Designs extends Component {
   			playerHeight = 360;
   		}
     	return (
-			<div style={{display: this.props.display, minWidth: "464px" , minHeight: "226px"}} className="Content-Container">
+			<div style={{display: this.props.display/*, minWidth: "464px" , minHeight: "226px"*/}} className="Content-Container">
 	    		<div className="Content-Text-Box">
 	    			<div className="Designs-Title">The Abyss</div>
 	    			<div className="Designs-Text">The Abyss is a plugin designed around the idea of stretching a reverb algorithm to the point of breaking. 

@@ -13,7 +13,7 @@ class Contact extends Component {
 	    			<div className="Resume-Text">Boston, MA, 02134</div>
                     <div className="Resume-Text">
                         Find me on: 
-                        <a className="Resume-Text" id="LinkedIn" href="https://www.linkedin.com/in/emmett-palaima-b20012140/">
+                        <a className="Resume-Text" id="LinkedIn" href="https://www.linkedin.com/in/emmett-palaima-b20012140/" target="_blank">
                             LinkedIn
                         </a>
                     </div>

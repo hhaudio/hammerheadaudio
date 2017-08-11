@@ -2,7 +2,7 @@
 
 
 .Content-Container {
-  position: absolute;
+  position: fixed;
   border-radius: 10px;
   background-color: rgba(255,255,255, .95);/*rgba(135,206,250, .9);/*LightSkyBlue; /*rgba(255,255,255, .9);*/
   z-index: 1000;
