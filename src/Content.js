@@ -15,7 +15,7 @@ class Content extends Component {
       <div>
         <Designs width={this.props.width} height={this.props.height} display={this.props.nav === "Designs" ? 'block' : 'none'}/>
         <Music width={this.props.width} height={this.props.height} display={this.props.nav === "Music" ? 'block' : 'none'}/>
-        <Bio display={this.props.nav === "Bio" ? 'block' : 'none'}/>
+        <Bio width={this.props.width} display={this.props.nav === "Bio" ? 'block' : 'none'}/>
         <Resume display={this.props.nav === "Resume" ? 'block' : 'none'}/>
         <Contact display={this.props.nav === "Contact" ? 'block' : 'none'}/>
       </div>
