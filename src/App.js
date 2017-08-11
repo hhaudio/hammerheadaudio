@@ -21,6 +21,7 @@ class App extends Component {
     }
     window.addEventListener("resize", this.updateDimensions.bind(this));
     this.updateDimensions();
+    document.body.style.overflowY = "hidden";
     //document.body.style.overflowX = "hidden";
   }
 

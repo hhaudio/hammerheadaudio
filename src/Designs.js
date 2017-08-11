@@ -11,15 +11,16 @@ class Designs extends Component {
   	render() {
   		var playerWidth;
   		var playerHeight;
-  		if(this.props.width < 460 || this.props.height < 230){
-  			playerHeight = 162;
+      var heightComp = this.props.height - 180;
+  		if(this.props.width < 460 || heightComp < 216){
   			playerWidth = 288;
+        playerHeight = 162;
   		}
-      else if(this.props.width < 560 || this.props.height < 320){
+      else if(this.props.width < 560 || heightComp < 270){
         playerWidth = 384;
         playerHeight = 216;
       }
-  		else if(this.props.width < 740 || this.props.height < 480){
+  		else if(this.props.width < 740 || heightComp < 360){
   		 	playerWidth = 480;//384;
   		 	playerHeight = 270//216;
   		}
