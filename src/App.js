@@ -15,13 +15,15 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state={
-      NavPage: "Home",
+      NavPage: "Designs",
       width: window.innerWidth,
       height: window.innerHeight
     }
     window.addEventListener("resize", this.updateDimensions.bind(this));
     this.updateDimensions();
     document.body.style.overflowY = "hidden";
+    document.body.style.transformOrigin = "0 0";
+    document.body.style.transform = {scale: .5};
     //document.body.style.overflowX = "hidden";
   }
 

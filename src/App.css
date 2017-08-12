@@ -1,6 +1,5 @@
 body{
   font-family: Helvetica, Arial, sans-serif;
-  max-width: 400px;
 }
 
 .App {
@@ -91,9 +90,11 @@ body{
 .hhlogo {
   position: absolute;
   z-index: 1000;
+  /*width: 10.667em;
+  height: 5.333em;
+  */
   top: 10px;
   left: 10px;
-  /*box-shadow: 5px 5px 10px black;*/
 }
 
 .hhtitle {
