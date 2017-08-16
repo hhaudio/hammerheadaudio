@@ -24,7 +24,6 @@ class App extends Component {
     document.body.style.overflowY = "hidden";
     document.body.style.transformOrigin = "0 0";
     document.body.style.transform = {scale: .5};
-    //document.body.style.overflowX = "hidden";
   }
 
   updateDimensions() {
@@ -46,13 +45,6 @@ class App extends Component {
       navPos = "absolute";
       document.body.style.overflowX = "auto";
     }
-    /*if(this.state.width > 1000){
-      document.body.style.overflowX = "hidden";
-    }
-    else{
-      document.body.style.overflowX = "auto";
-    }
-    */
   }
 
   navClicked(page) {
@@ -82,13 +74,10 @@ class App extends Component {
         </div>
         <Void/>
         <Content width={this.state.width} height={this.state.height} nav={this.state.NavPage}/>
-        <div className="Copyright">© Emmett Palaima 2017, Page Made With ReactJS</div>
+        <div className="Copyright">© Emmett Palaima 2017, Page Made With React, Source on <a href="https://github.com/epaudio/hammerheadaudio" target="_blank">Github</a></div>
       </div>
     );
   }
 }
-
-        //<div className="Logo-Frame"/>
-        //<img src="hhlogo.png" className="hhlogo" alt="logo" />
 
 export default App;

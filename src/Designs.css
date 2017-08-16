@@ -1,0 +1,40 @@
+.Designs-Title {
+  position: relative;
+  font: 28px Soho-Thin;
+  color: black;
+  font-weight: bold;
+  left: 20px;
+  text-align: left;
+  display: inherit;
+}
+
+.Designs-Text {
+  position: relative;
+  font: 18px HelveticaNeue-Thin;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  left: 12px;
+  text-align: left; 
+  display: inherit; 
+  border-radius: 5px;
+}
+
+.Designs-Video-Container {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  box-shadow: 0px 0px 20px LightSkyBlue;
+  background-color: rgba(135,206,250, .7);
+  font: 18px HelveticaNeue-Thin;
+  display: inherit;
+}
+
+.Designs-Video {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: inherit;
+}

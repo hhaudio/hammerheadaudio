@@ -11,14 +11,7 @@ class Resume extends Component {
     				<a className="Resume-Text" id="LinkedIn" style={{left: "0px"}} href="epalaima_resume.pdf" download>Download PDF</a>
     			</div>
     			<div className="Resume-Section">
-	    			<div className="Resume-Section-Header">Work Experience</div>
-	    			<div className="Resume-Entry-Header">Design Engineer and Programmer at Dwarfcraft Devices [09/16-Present]</div>
-	    			<div className="Resume-Text">Work remotely as a programmer and hardware engineer on design of effects pedals and synthesizers, including:</div>
-	    			<ul className="Resume-List">
-	    				<li className="Resume-List-Text">Design and programming of modules for Dwarfcraft’s flagship modular synthesis system, including a wave-shaping oscillator and a complex control signal generator.</li>
-	    				<li className="Resume-List-Text">Design of digital components for integration into larger analog designs, including a wave-shaping LFO for use in an analog phase-shifter pedal</li>
-	    				<li className="Resume-List-Text">Skills Engaged: C, Microcontroller Programming, KiCad, Electrical Engineering, Sound Design, Communication</li>
-	    			</ul>	    			
+    				<div className="Resume-Section-Header">Work Experience</div>
 	    			<div className="Resume-Entry-Header">Berklee Electronic Production and Design Department Tutor [01/17-07/17]</div>
 	    			<div className="Resume-Text">Worked as a tutor for the Electronic Production and Design (EPD) Department at Berklee College of Music including:</div>
 	    			<ul className="Resume-List">
@@ -35,7 +28,14 @@ class Resume extends Component {
 	    				<li className="Resume-List-Text">Analog and digital design of a hardware controller for use with the application, and programming of the interface for communication between the application and the controller</li>
 	    				<li className="Resume-List-Text">Leading a team of interns in projects relating to hardware design</li>    				
 	    				<li className="Resume-List-Text">Skills Engaged: C++ (Including JUCE), JavaScript, React, Golang, SQL, Python, Linux, Electrical Engineering, Kicad, Communication, Team Leadership</li>
-	    			</ul>
+	    			</ul>    			
+	    			<div className="Resume-Entry-Header">Design Engineer and Programmer at Dwarfcraft Devices [09/16-Present]</div>
+	    			<div className="Resume-Text">Work remotely as a programmer and hardware engineer on design of effects pedals and synthesizers, including:</div>
+	    			<ul className="Resume-List">
+	    				<li className="Resume-List-Text">Design and programming of modules for Dwarfcraft’s flagship modular synthesis system, including a wave-shaping oscillator and a complex control signal generator.</li>
+	    				<li className="Resume-List-Text">Design of digital components for integration into larger analog designs, including a wave-shaping LFO for use in an analog phase-shifter pedal</li>
+	    				<li className="Resume-List-Text">Skills Engaged: C, Microcontroller Programming, KiCad, Electrical Engineering, Sound Design, Communication</li>
+	    			</ul>	    			
 	    			<div className="Resume-Entry-Header">Design/Production Internship at Dwarfcraft Devices [06/16-09/16]</div>
 	    			<div className="Resume-Text">Worked as a paid design intern at Dwarfcraft Devices, including:</div>
 	    			<ul className="Resume-List">
@@ -60,6 +60,10 @@ class Resume extends Component {
 
     			<div className="Resume-Section">
 	    			<div className="Resume-Section-Header">Additional Experience</div>
+	    			<div className="Resume-Entry-Header">The Sound of Dreaming [2017]</div>
+	    			<div className="Resume-Text">
+	    				Took part in the production and performance of a piece entitled the “The Sound of Dreaming”, headed by Nona Hendryx and Dr. Richard Boulanger, which premiered at Moogfest 2017 with a repeat performance at Mass MoCA. Duties included developing a set of custom patches for my Csound based Vocal Effects Processor, which was prominently featured in the piece, as well as performing on bass and DJ equipment, learning and managing several alternate controller systems, and circuit-bending toys for use as sound-making props. 
+	    			</div>
 	    			<div className="Resume-Entry-Header">Reverb Plugin Design [2017]</div>
 	    			<div className="Resume-Text">Designed and programmed a Reverb Plugin, implemented in Audio Unit and VST format. Included the design of a reverb algorithm and the creation of a unique feature set, as well as C++ implementation using the JUCE framework and the design of a custom GUI. </div>
 	    			<div className="Resume-Entry-Header">Firmware Programming for Csound Based Eurorack Module [2017]</div>
@@ -70,13 +74,21 @@ class Resume extends Component {
     			<div className="Resume-Section">
 	    			<div className="Resume-Section-Header">Skills</div>
 	    			<div className="Resume-Entry-Header">Programming</div>
-	    			<div className="Resume-Text">C, C++ (including JUCE Framwork), Objective C, Javascript, Golang, SQL, Python, Csound, Max/MSP, Linux, Assembly Language, HTML/CSS, Includes Experience Programming Microcontrollers and Embedded Processors</div>
+	    			<div className="Resume-Text">
+	    				C, C++ (including JUCE Framwork), Objective C, Javascript (including React framework), C# (including Unity), Golang, SQL, Python, Csound, Max/MSP, Linux, Assembly Language, HTML/CSS, Includes Experience Programming Microcontrollers and Embedded Processors
+	    			</div>
 	    			<div className="Resume-Entry-Header">Electronics</div>	
-	    			<div className="Resume-Text">Circuit Board Layout, Production Line Experience with Soldering and Construction of Audio Hardware, Schematic and Circuit Board Reading, Oscilloscope Use, Effects Pedal Repair and Design, Guitar Electronics Repair, Microphone Construction, Studio Monitor Construction</div> 
+	    			<div className="Resume-Text">
+	    				Circuit Board Layout, Production Line Experience with Soldering and Construction of Audio Hardware, Schematic and Circuit Board Reading, Oscilloscope Use, Effects Pedal Repair and Design, Guitar Electronics Repair, Microphone Construction, Studio Monitor Construction
+	    			</div> 
 	    			<div className="Resume-Entry-Header">Software</div>	
-	    			<div className="Resume-Text">Proficient with Logic, Pro Tools, Ableton Live, Reason, Garageband, Xcode, Sigma Studio, TrueStudio, MPLAB X, Premiere, After Effects, Finale, Sibelius, Microsoft Office, Photoshop, GIMP</div>
+	    			<div className="Resume-Text">
+	    				Proficient with Logic, Pro Tools, Ableton Live, Reason, Garageband, Xcode, Unity, Sigma Studio, TrueStudio, MPLAB X, Premiere, After Effects, Finale, Sibelius, Microsoft Office, Photoshop, GIMP
+	    			</div>
 	    			<div className="Resume-Entry-Header">Music</div>	
-	    			<div className="Resume-Text">Guitar (Electric and Acoustic), Vocals (lead and backup), Basic Keyboard, Production, Synthesis, Sound Design, DSP, Recording, Writing and Composition</div>   			
+	    			<div className="Resume-Text">
+	    				Guitar (Electric and Acoustic), Vocals (lead and backup), Bass (Electric), Basic Keyboard, Production, Synthesis, Sound Design, DSP, Recording, Writing and Composition
+	    			</div>   			
     			</div>   
     			<div className="Resume-Section">
     				<div className="Resume-Section-Header">Education</div>

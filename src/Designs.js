@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
-import './Content.css';
+import './Designs.css';
 
 class Designs extends Component {
-	
-  /*shouldComponentUpdate(){
-    return false;
-  }*/
 
   	render() {
   		var playerWidth;
@@ -21,8 +17,8 @@ class Designs extends Component {
         playerHeight = 216;
       }
   		else if(this.props.width < 740 || heightComp < 360){
-  		 	playerWidth = 480;//384;
-  		 	playerHeight = 270//216;
+  		 	playerWidth = 480;
+  		 	playerHeight = 270;
   		}
   		else{
   			playerWidth = 640;
@@ -52,5 +48,3 @@ class Designs extends Component {
 }
 
 export default Designs;
-
-//<ReactPlayer className="Designs-Video" url='https://www.youtube.com/watch?v=Hr8m814zwwc' controls/>

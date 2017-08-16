@@ -25,8 +25,3 @@ class Contact extends Component {
 }   	
 
 export default Contact; 
-
-//<a className="Resume-Text" id="LinkedIn" style={{textDecoration: "none"}} href="https://www.linkedin.com/in/emmett-palaima-b20012140/">LinkedIn</a>
-/*<a href="https://www.linkedin.com/in/emmett-palaima-b20012140/">
-                        <img src="linkedin.png" id="LinkedIn"/>
-                    </a>*/

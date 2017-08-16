@@ -2,6 +2,11 @@ body{
   font-family: Helvetica, Arial, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: LightSkyBlue;
+}
+
 .App {
   text-align: center;
 }
@@ -19,7 +24,7 @@ body{
 .Menu-Bar {
   position: absolute;
   top: 94px;
-  left: 20px; /*159px*/
+  left: 20px;
   width: 100%;
   min-width: 600px;
 }
@@ -81,7 +86,7 @@ body{
   top: 0px;
   left: 0px;
   height: 84px;
-  width: 100%;/*1800px;*/
+  width: 100%;
   min-width: 920px;
   color: white;
   z-index: 1000;
@@ -90,9 +95,6 @@ body{
 .hhlogo {
   position: absolute;
   z-index: 1000;
-  /*width: 10.667em;
-  height: 5.333em;
-  */
   top: 10px;
   left: 10px;
 }
@@ -121,8 +123,6 @@ body{
   color: white;
   font: 15px Soho-Thin;
 }
-
-
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
