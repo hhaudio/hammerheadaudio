@@ -17,5 +17,6 @@
 	box-shadow: 0px 0px 20px LightSkyBlue;	
 	background-color: rgba(135,206,250, .7);
 	margin-bottom: 30px;
-	font: 18px HelveticaNeue-Thin;
+	font-size: 18px;
+	font-family: "HelveticaNeue-Thin", Arial, Serif;
 }

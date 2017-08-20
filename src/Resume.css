@@ -1,6 +1,7 @@
 .Resume-Section-Header {
   position: relative;
-  font: 22px Century Gothic; 
+  font-size: 22px; 
+  font-family: "Century Gothic", Helvetica, Arial, monospace, serif;
   font-weight: bold;
   left: 10px;
   text-align: left;
@@ -9,7 +10,8 @@
 .Resume-Header {
   background-color: rgba(255,255,255, .95);
   position: relative;
-  font: 25px Century Gothic; 
+  font-size: 25px;
+  font-family: "Century Gothic", Helvetica, Arial, monospace, serif;
   font-weight: bold;
   padding-left: 10px;
   padding-right: 15px;
@@ -29,7 +31,8 @@
 
 .Resume-Entry-Header {
   position: relative;
-  font: 15px Century Gothic;
+  font-size: 15px;
+  font-family: "Century Gothic", Helvetica, Arial, monospace, serif;
   font-weight: bold;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -44,7 +47,9 @@
 
 .Resume-Text {
   position: relative;
-  font: 15px Century Gothic;
+  font-size: 15px;
+  font-family: "Century Gothic", Helvetica, Arial, monospace, serif;
+  font-weight: normal;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-right: 5px;
@@ -65,7 +70,9 @@
 .Resume-List-Text {
   position: relative;
   list-style-type: circle;
-  font: 15px Century Gothic;
+  font-size: 15px;
+  font-family: "Century Gothic", Helvetica, Arial, monospace, serif;
+  font-weight: normal;
   padding-top: 5px;
   padding-bottom: 5px;
   left: 10px;

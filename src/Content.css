@@ -16,7 +16,8 @@
 
 .Content-Title {
   position: relative;
-  font: 28px Soho-Thin;
+  font-size: 28px;
+  font-family: "Soho-Thin", "Helvetica-Normal", monospace;
   font-weight: bold;
   left: 20px;
   text-align: left;
@@ -25,7 +26,9 @@
 
 .Content-Text {
   position: relative;
-  font: 18px HelveticaNeue-Thin;
+  font-size: 18px;
+  font-family: "HelveticaNeue-Thin", Arial, Serif;
+  font-weight: thin;
   padding-top: 5px;
   padding-bottom: 5px;
   left: 20px;
@@ -40,7 +43,6 @@
   top: 10px;
   bottom: 10px;
   color: black; 
-  font: 28px Soho-Thin;
   padding-right: 40px;
   overflow:auto;
   display: inherit;

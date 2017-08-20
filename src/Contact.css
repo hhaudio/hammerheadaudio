@@ -1,6 +1,7 @@
 .Contact-Header {
   position: relative;
-  font: 25px Century Gothic; 
+  font-size: 25px;
+  font-family: "Century Gothic", Helvetica, Arial, monospace, serif; 
   font-weight: bold;
   padding-left: 0px;
   padding-right: 15px;

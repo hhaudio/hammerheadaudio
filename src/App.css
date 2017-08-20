@@ -36,7 +36,8 @@ a {
   text-align: center;
   vertical-align: center;
   color: white;
-  font: 20px Soho-Light;
+  font-size: 20px;
+  font-family: "Soho-Light", "Century Gothic", monospace;
   z-index: 1000;
   padding-top: 2px;
   padding-bottom: 2px;
@@ -103,7 +104,8 @@ a {
   position: absolute;
   top: 10px;
   left: 148px;
-  font: 64px Soho-Thin;
+  font-size: 64px;
+  font-family: "Soho-Thin", Arial, serif;
   width: 400px;
 }
 
@@ -111,7 +113,8 @@ a {
   position: absolute;
   top: 10px;
   left: 558px;
-  font: 28px Soho-Thin; 
+  font-size: 28px;
+  font-family: "Soho-Thin", Arial, serif; 
   text-align: left;
   width: 360px; 
 }
@@ -121,7 +124,8 @@ a {
   bottom: 5px;
   right: 25px;
   color: white;
-  font: 15px Soho-Thin;
+  font-size: 15px;
+  font-family: "Soho-Thin", "Century Gothic", "HelveticaNeue", Arial, serif;
 }
 
 @keyframes App-logo-spin {

@@ -27,8 +27,8 @@ class Designs extends Component {
     	return (
 			<div style={{display: this.props.display}} className="Content-Container">
 	    		<div className="Content-Text-Box">
-	    			<div className="Designs-Title">The Abyss</div>
-	    			<div className="Designs-Text">The Abyss is a plugin designed around the idea of stretching a reverb algorithm to the point of breaking. 
+	    			<div className="Content-Title">The Abyss</div>
+	    			<div className="Content-Text">The Abyss is a plugin designed around the idea of stretching a reverb algorithm to the point of breaking. 
 	   				Built using eight parallel delay lines, a major feature is the ability to modulate parameters separately for each line,
 	   				creating spaces that subtley (or not so subtley) shift and ripple beneath your ears. 
 	   				It also includes such features as 
