@@ -12,7 +12,7 @@ class Resume extends Component {
     			</div>
     			<div className="Resume-Section">
     				<div className="Resume-Section-Header">Work Experience</div>
-    				<div className="Resume-Entry-Header">Design Engineer and Programmer at Jay Rockett [08/17-Present]</div>
+    				<div className="Resume-Entry-Header">Design Engineer and Programmer at J. Rockett Audio Designs [08/17-Present]</div>
 	    			<div className="Resume-Text">Work remotely as a programmer and hardware engineer on design of effects pedals, including:</div>
 	    			<ul className="Resume-List">
 	    				<li className="Resume-List-Text">Design and programming of DSP emulations of classic analog effects, including digital emulation of analog tape delay.</li>
@@ -117,7 +117,7 @@ class Resume extends Component {
     				<div className="Resume-Entry-Header">Berklee Achievement Scholarship [2015-2017]</div>
     				<div className="Resume-Text">Awarded a scholarship in recognition of my musical, academic and extracurricular accomplishments at Berklee College of Music</div>
     				<div className="Resume-Entry-Header">Dean’s List [2013-2017]</div>
-    				<div className="Resume-Text">Was selected for the Dean’s List at Berklee College of Music for Every Semester Attended </div>
+    				<div className="Resume-Text">Was selected for the Dean’s List at Berklee College of Music for every semester attended </div>
     			</div> 			
     		</div>
     	</div>
