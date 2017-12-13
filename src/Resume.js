@@ -12,6 +12,13 @@ class Resume extends Component {
     			</div>
     			<div className="Resume-Section">
     				<div className="Resume-Section-Header">Work Experience</div>
+    				<div className="Resume-Entry-Header">Design Engineer and Programmer at Jay Rockett [08/17-Present]</div>
+	    			<div className="Resume-Text">Work remotely as a programmer and hardware engineer on design of effects pedals, including:</div>
+	    			<ul className="Resume-List">
+	    				<li className="Resume-List-Text">Design and programming of DSP emulations of classic analog effects, including digital emulation of analog tape delay.</li>
+	    				<li className="Resume-List-Text">Integration of analog and digital portions of designs, including modifying analog circuits such as preamps to work with digital elements. </li>
+	    				<li className="Resume-List-Text">Skills Engaged: C, Microcontroller Programming (Sharc), KiCad, Electrical Engineering, Sound Design, Communication</li>
+	    			</ul>
 	    			<div className="Resume-Entry-Header">Berklee Electronic Production and Design Department Tutor [01/17-07/17]</div>
 	    			<div className="Resume-Text">Worked as a tutor for the Electronic Production and Design (EPD) Department at Berklee College of Music including:</div>
 	    			<ul className="Resume-List">
@@ -32,9 +39,11 @@ class Resume extends Component {
 	    			<div className="Resume-Entry-Header">Design Engineer and Programmer at Dwarfcraft Devices [09/16-Present]</div>
 	    			<div className="Resume-Text">Work remotely as a programmer and hardware engineer on design of effects pedals and synthesizers, including:</div>
 	    			<ul className="Resume-List">
+	    				<li className="Resume-List-Text">Design and programming of DSP based effects pedals, including phaser, ring mod, filter, and delay effects.</li>
 	    				<li className="Resume-List-Text">Design and programming of modules for Dwarfcraft’s flagship modular synthesis system, including a wave-shaping oscillator and a complex control signal generator.</li>
-	    				<li className="Resume-List-Text">Design of digital components for integration into larger analog designs, including a wave-shaping LFO for use in an analog phase-shifter pedal</li>
-	    				<li className="Resume-List-Text">Skills Engaged: C, Microcontroller Programming, KiCad, Electrical Engineering, Sound Design, Communication</li>
+	    				<li className="Resume-List-Text">Design and programming of effects for Dwarfcraft installations, including phaser and delay programs for an interactive exhibit at the Children’s Museum of Eau Claire.</li>
+	    				<li className="Resume-List-Text">Design of digital components for integration into larger analog designs, including a wave-shaping LFO.</li>
+						<li className="Resume-List-Text">Skills Engaged: C, Microcontroller Programming (Spin FV-1, PIC32, PIC16, STM32, ATMega), KiCad, Electrical Engineering, Sound Design, Communication</li>
 	    			</ul>	    			
 	    			<div className="Resume-Entry-Header">Design/Production Internship at Dwarfcraft Devices [06/16-09/16]</div>
 	    			<div className="Resume-Text">Worked as a paid design intern at Dwarfcraft Devices, including:</div>
@@ -60,6 +69,10 @@ class Resume extends Component {
 
     			<div className="Resume-Section">
 	    			<div className="Resume-Section-Header">Additional Experience</div>
+	    			<div className="Resume-Entry-Header">The Returning of a One Who Must Be Loved [2017]</div>
+	    			<div className="Resume-Text">
+	    				Collaborated with Lane Shi on the design of a multimedia installation, which symbolically tells the story of the end of the world, beginning with the awakening of an ancient sea monster and culminating with the tears of a lost child. Contributions include design of a custom Raspberry Pi based motor automation system for moving projections and lighting in sync to music.
+	    			</div>
 	    			<div className="Resume-Entry-Header">The Sound of Dreaming [2017]</div>
 	    			<div className="Resume-Text">
 	    				Took part in the production and performance of a piece entitled the “The Sound of Dreaming”, headed by Nona Hendryx and Dr. Richard Boulanger, which premiered at Moogfest 2017 with a repeat performance at Mass MoCA. Duties included developing a set of custom patches for my Csound based Vocal Effects Processor, which was prominently featured in the piece, as well as performing on bass and DJ equipment, learning and managing several alternate controller systems, and circuit-bending toys for use as sound-making props. 
@@ -69,13 +82,13 @@ class Resume extends Component {
 	    			<div className="Resume-Entry-Header">Firmware Programming for Csound Based Eurorack Module [2017]</div>
 	    			<div className="Resume-Text">Programming of firmware on a Eurorack module that allows users to easily implement Csound patches in a hardware format, in collaboration with the modular synthesizer company Instruo, which provided the hardware design. Includes creation of an interface for easily uploading Csound patches, setting up control signal and audio input and output, as well as programming an LCD text display. </div>
 	    			<div className="Resume-Entry-Header">Design of Csound Based Multi-Effects Pedal for Guitar and Vocals [2016]</div>
-	    			<div className="Resume-Text">Implemented the Csound audio programming language on the Raspberry Pi microware computer for processing audio in real time, a project which included designing appropriate amplification stages for both mic and line level input, setting up audio codec support, designing an custom midi controller to pass analog control values into Csound.</div>
+	    			<div className="Resume-Text">Implemented the Csound audio programming language on the Raspberry Pi microware computer for processing audio in real time, a project which included designing appropriate amplification stages for both mic and line level input, setting up audio codec support, designing a custom midi controller to pass analog control values into Csound.</div>
 	    		</div>
     			<div className="Resume-Section">
 	    			<div className="Resume-Section-Header">Skills</div>
 	    			<div className="Resume-Entry-Header">Programming</div>
 	    			<div className="Resume-Text">
-	    				C, C++ (including JUCE Framwork), Objective C, Javascript (including React framework), C# (including Unity), Golang, SQL, Python, Csound, Max/MSP, Linux, Assembly Language, HTML/CSS, Includes Experience Programming Microcontrollers and Embedded Processors
+	    				C, C++ (including JUCE Framwork), Objective C, Javascript (including React framework), C# (including Unity), Golang, SQL, Python, Csound, Max/MSP, Linux (including Raspberry Pi), Assembly Language, HTML/CSS, Includes Experience Programming Microcontrollers and Embedded Processors (Sharc, SPIN FV-1, PIC32/16, STM32, ATMega, etc.)
 	    			</div>
 	    			<div className="Resume-Entry-Header">Electronics</div>	
 	    			<div className="Resume-Text">
