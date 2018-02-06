@@ -8,7 +8,7 @@ class Resume extends Component {
     		<div className="Content-Text-Box" id="CT-Black" style={{paddingRight: "20px"}}>
     			<div className="Resume-Header">
     				<div>Emmett Palaima Resume</div>
-    				<a className="Resume-Text" id="LinkedIn" style={{left: "0px"}} href="epalaima_resume.pdf" download>Download PDF</a>
+    				<a className="Resume-Text" id="LinkedIn" style={{left: "0px"}} href="EmmettPalaima_Resume.pdf" download>Download PDF</a>
     			</div>
     			<div className="Resume-Section">
     				<div className="Resume-Section-Header">Work Experience</div>
@@ -19,6 +19,15 @@ class Resume extends Component {
 	    				<li className="Resume-List-Text">Integration of analog and digital portions of designs, including modifying analog circuits such as preamps to work with digital elements. </li>
 	    				<li className="Resume-List-Text">Skills Engaged: C, Microcontroller Programming (Sharc), KiCad, Electrical Engineering, Sound Design, Communication</li>
 	    			</ul>
+	    			<div className="Resume-Entry-Header">Design Engineer and Programmer at Dwarfcraft Devices [09/16-Present]</div>
+	    			<div className="Resume-Text">Work remotely as a programmer and hardware engineer on design of effects pedals and synthesizers, including:</div>
+	    			<ul className="Resume-List">
+	    				<li className="Resume-List-Text">Design and programming of DSP based effects pedals, including phaser, ring mod, filter, and delay effects.</li>
+	    				<li className="Resume-List-Text">Design and programming of modules for Dwarfcraft’s flagship modular synthesis system, including a wave-shaping oscillator and a complex control signal generator.</li>
+	    				<li className="Resume-List-Text">Design and programming of effects for Dwarfcraft installations, including phaser and delay programs for an interactive exhibit at the Children’s Museum of Eau Claire.</li>
+	    				<li className="Resume-List-Text">Design of digital components for integration into larger analog designs, including a wave-shaping LFO.</li>
+						<li className="Resume-List-Text">Skills Engaged: C, Microcontroller Programming (Spin FV-1, PIC32, PIC16, STM32, ATMega), KiCad, Electrical Engineering, Sound Design, Communication</li>
+	    			</ul>		    			
 	    			<div className="Resume-Entry-Header">Berklee Electronic Production and Design Department Tutor [01/17-07/17]</div>
 	    			<div className="Resume-Text">Worked as a tutor for the Electronic Production and Design (EPD) Department at Berklee College of Music including:</div>
 	    			<ul className="Resume-List">
@@ -35,16 +44,7 @@ class Resume extends Component {
 	    				<li className="Resume-List-Text">Analog and digital design of a hardware controller for use with the application, and programming of the interface for communication between the application and the controller</li>
 	    				<li className="Resume-List-Text">Leading a team of interns in projects relating to hardware design</li>    				
 	    				<li className="Resume-List-Text">Skills Engaged: C++ (Including JUCE), JavaScript, React, Golang, SQL, Python, Linux, Electrical Engineering, Kicad, Communication, Team Leadership</li>
-	    			</ul>    			
-	    			<div className="Resume-Entry-Header">Design Engineer and Programmer at Dwarfcraft Devices [09/16-Present]</div>
-	    			<div className="Resume-Text">Work remotely as a programmer and hardware engineer on design of effects pedals and synthesizers, including:</div>
-	    			<ul className="Resume-List">
-	    				<li className="Resume-List-Text">Design and programming of DSP based effects pedals, including phaser, ring mod, filter, and delay effects.</li>
-	    				<li className="Resume-List-Text">Design and programming of modules for Dwarfcraft’s flagship modular synthesis system, including a wave-shaping oscillator and a complex control signal generator.</li>
-	    				<li className="Resume-List-Text">Design and programming of effects for Dwarfcraft installations, including phaser and delay programs for an interactive exhibit at the Children’s Museum of Eau Claire.</li>
-	    				<li className="Resume-List-Text">Design of digital components for integration into larger analog designs, including a wave-shaping LFO.</li>
-						<li className="Resume-List-Text">Skills Engaged: C, Microcontroller Programming (Spin FV-1, PIC32, PIC16, STM32, ATMega), KiCad, Electrical Engineering, Sound Design, Communication</li>
-	    			</ul>	    			
+	    			</ul>    			    			
 	    			<div className="Resume-Entry-Header">Design/Production Internship at Dwarfcraft Devices [06/16-09/16]</div>
 	    			<div className="Resume-Text">Worked as a paid design intern at Dwarfcraft Devices, including:</div>
 	    			<ul className="Resume-List">
