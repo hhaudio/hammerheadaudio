@@ -35,7 +35,7 @@ class App extends Component {
       navPos = "fixed";
       document.body.style.overflowX = "hidden";
     }
-    else if(this.state.width > 510){
+    else if(this.state.width > 610){
       headerPos = "absolute";
       navPos = "fixed";
       document.body.style.overflowX = "auto";
@@ -67,10 +67,13 @@ class App extends Component {
         <div className="Header-Bar"/>
         <div className="Menu-Bar" style={{position: navPos}}>
           <MenuItem text="Designs" idfl="First-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
+          <MenuItem text="Art" idfl="Middle-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
           <MenuItem text="Music" idfl="Middle-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
           <MenuItem text="Bio" idfl="Middle-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
-          <MenuItem text="Resume" idfl="Middle-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
-          <MenuItem text="Contact" idfl="Last-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
+          <MenuItem text="Contact" idfl="Middle-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
+          <a className="Menu-Divider" id="Last-Item" href="EmmettPalaima_Resume.pdf" target="_blank">
+            <div className="Menu-Item" id="Last-Item" href="EmmettPalaima_Resume.pdf" target="_blank">Resume</div>
+          </a>
         </div>
         <Void/>
         <Content width={this.state.width} height={this.state.height} nav={this.state.NavPage}/>
@@ -81,3 +84,7 @@ class App extends Component {
 }
 
 export default App;
+
+          /*
+          <MenuItem text="Resume" idfl="Middle-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
+          */

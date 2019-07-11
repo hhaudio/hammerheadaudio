@@ -9,8 +9,8 @@ class Contact extends Component {
 	    			<div style={{position: "relative", left: 10}}>Contact</div>
 	    			<div className="Resume-Text">emmett@hammerheadaudio.com</div>
 	    			<div className="Resume-Text">Tel: 512-992-5225</div>
-	    			<div className="Resume-Text">7 Greylock Road</div>
-	    			<div className="Resume-Text">Boston, MA, 02134</div>
+	    			<div className="Resume-Text">755 Dunlap Street, Apt J</div>
+	    			<div className="Resume-Text">Santa Fe, NM, 87501</div>
                     <div className="Resume-Text">
                         Find me on: 
                         <a className="Resume-Text" id="LinkedIn" href="https://www.linkedin.com/in/emmett-palaima-b20012140/" target="_blank">
