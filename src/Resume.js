@@ -35,7 +35,7 @@ class Resume extends Component {
 	    			</ul>
 
     				<div className="Resume-Entry-Header">Design Engineer and Programmer at J. Rockett Audio Designs [08/17-04/18]</div>
-	    			<div className="Resume-Text">Work remotely as a programmer and hardware engineer on design of effects pedals, including:</div>
+	    			<div className="Resume-Text">Worked remotely as a programmer and hardware engineer on design of effects pedals, including:</div>
 	    			<ul className="Resume-List">
 	    				<li className="Resume-List-Text">Design and programming of DSP emulations of classic analog effects, including digital emulation of analog tape delay.</li>
 	    				<li className="Resume-List-Text">Integration of analog and digital portions of designs, including modifying analog circuits such as preamps to work with digital elements, and designing a digital tap tempo system for analog delay.</li>
