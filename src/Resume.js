@@ -12,22 +12,36 @@ class Resume extends Component {
     			</div>
     			<div className="Resume-Section">
     				<div className="Resume-Section-Header">Work Experience</div>
-    				<div className="Resume-Entry-Header">Design Engineer and Programmer at J. Rockett Audio Designs [08/17-Present]</div>
-	    			<div className="Resume-Text">Work remotely as a programmer and hardware engineer on design of effects pedals, including:</div>
+
+    				<div className="Resume-Entry-Header">Sound Technologist at Meow Wolf [04/18-Present]</div>
+	    			<div className="Resume-Text">Work as a creative voice, programmer, and electrical engineer providing for sound technology needs at current and future installations, including:</div>
 	    			<ul className="Resume-List">
-	    				<li className="Resume-List-Text">Design and programming of DSP emulations of classic analog effects, including digital emulation of analog tape delay.</li>
-	    				<li className="Resume-List-Text">Integration of analog and digital portions of designs, including modifying analog circuits such as preamps to work with digital elements. </li>
-	    				<li className="Resume-List-Text">Skills Engaged: C, Microcontroller Programming (Sharc), KiCad, Electrical Engineering, Sound Design, Communication</li>
+	    				<li className="Resume-List-Text">Creative concepting and decision making for audio tech in installation pieces, ranging from technical problem solving, to filling out specifics of broad ideas, to developing and executing original ideas.</li>
+	    				<li className="Resume-List-Text">Design of custom circuit boards, including a modular driver system for large-scale robotic orchestras. </li>
+	    				<li className="Resume-List-Text">Design of generative and interactive audio systems, including generative motor sound design for art car installations, spatial systems, and interactive systems.</li>
+	    				<li className="Resume-List-Text">Embedded audio design, including a multichannel audio system for the Teensy Microcontroller </li>
+	    				<li className="Resume-List-Text">Installation of audio tech in exhibitions, including tech for a room at the Meow Wolf House of
+							Eternal Return in Santa Fe, New Mexico.</li>
+	    				<li className="Resume-List-Text">Skills Engaged: Electrical Engineering, KiCad, Max/MSP, C/C++ (JUCE), QSYS, Embedded
+							Programming (Arduino), Sound Design, Creativity, Collaboration, Technical Problem Solving</li>
 	    			</ul>
+
 	    			<div className="Resume-Entry-Header">Design Engineer and Programmer at Dwarfcraft Devices [09/16-Present]</div>
 	    			<div className="Resume-Text">Work remotely as a programmer and hardware engineer on design of effects pedals and synthesizers, including:</div>
 	    			<ul className="Resume-List">
-	    				<li className="Resume-List-Text">Design and programming of DSP based effects pedals, including phaser, ring mod, filter, and delay effects.</li>
-	    				<li className="Resume-List-Text">Design and programming of modules for Dwarfcraft’s flagship modular synthesis system, including a wave-shaping oscillator and a complex control signal generator.</li>
+	    				<li className="Resume-List-Text">Design and programming of DSP based effects pedals, including two designs completed and commercially released: The Ghost Fax Phase Computer and the Haxx II Ring Mod + Filter Pedal</li>
 	    				<li className="Resume-List-Text">Design and programming of effects for Dwarfcraft installations, including phaser and delay programs for an interactive exhibit at the Children’s Museum of Eau Claire.</li>
-	    				<li className="Resume-List-Text">Design of digital components for integration into larger analog designs, including a wave-shaping LFO.</li>
-						<li className="Resume-List-Text">Skills Engaged: C, Microcontroller Programming (Spin FV-1, PIC32, PIC16, STM32, ATMega), KiCad, Electrical Engineering, Sound Design, Communication</li>
-	    			</ul>		    			
+						<li className="Resume-List-Text">Skills Engaged: C, Microcontroller Programming (Spin, PIC, STM32, ATMega, Sharc), KiCad, Electrical Engineering, Sound Design, Communication</li>
+	    			</ul>
+
+    				<div className="Resume-Entry-Header">Design Engineer and Programmer at J. Rockett Audio Designs [08/17-04/18]</div>
+	    			<div className="Resume-Text">Work remotely as a programmer and hardware engineer on design of effects pedals, including:</div>
+	    			<ul className="Resume-List">
+	    				<li className="Resume-List-Text">Design and programming of DSP emulations of classic analog effects, including digital emulation of analog tape delay.</li>
+	    				<li className="Resume-List-Text">Integration of analog and digital portions of designs, including modifying analog circuits such as preamps to work with digital elements, and designing a digital tap tempo system for analog delay.</li>
+	    				<li className="Resume-List-Text">Skills Engaged: C, Microcontroller Programming (Sharc), KiCad, Electrical Engineering, Sound Design, Communication</li>
+	    			</ul>
+
 	    			<div className="Resume-Entry-Header">Berklee Electronic Production and Design Department Tutor [01/17-07/17]</div>
 	    			<div className="Resume-Text">Worked as a tutor for the Electronic Production and Design (EPD) Department at Berklee College of Music including:</div>
 	    			<ul className="Resume-List">
@@ -56,8 +70,7 @@ class Resume extends Component {
 
 	    			<div className="Resume-Entry-Header">Experimental Music Reviewer at MXDWN [10/15-03/16]</div>
     				<div className="Resume-Text">Provided critical reviews of current experimental music albums for entertainment website MXDWN, including a review of David Bowie’s final album, Blackstar</div>
-    				<div className="Resume-Entry-Header">Guitarist at Mother’s Café and Garden Restaurant [09/12-06/16]</div>
-    				<div className="Resume-Text">Provided background music for patrons at Mother’s Café and Garden, a local vegetarian restaurant, four nights a week.</div>
+
     				<div className="Resume-Entry-Header">Counselor at The Fantastic Magic Camp [06/09-06/12]</div>
     				<div className="Resume-Text">Worked as a counselor at a non-profit summer camp specializing in inclusivity of special needs children, including:</div>
     				<ul className="Resume-List">
@@ -69,46 +82,54 @@ class Resume extends Component {
 
     			<div className="Resume-Section">
 	    			<div className="Resume-Section-Header">Additional Experience</div>
-	    			<div className="Resume-Entry-Header">The Returning of a One Who Must Be Loved [2017]</div>
+	    			<div className="Resume-Entry-Header">Elizabeth Colour Wheel [2014-Present]</div>
 	    			<div className="Resume-Text">
-	    				Collaborated with Lane Shi on the design of a multimedia installation, which symbolically tells the story of the end of the world, beginning with the awakening of an ancient sea monster and culminating with the tears of a lost child. Contributions include design of a custom Raspberry Pi based motor automation system for moving projections and lighting in sync to music.
+	    				Play guitar in a 5-piece band signed to The Flenser, on which we released our debut LP ‘Nocebo’ in March of 2019. We have toured throughout the United States and shared the stage with such acts as Have a Nice Life, Planning for Burial, Drowse, Full of Hell, Primitive Man, Jerome’s Dream, Loma Prieta, Big Brave, Sannhet, Street Sects, and more.
 	    			</div>
+
 	    			<div className="Resume-Entry-Header">The Sound of Dreaming [2017]</div>
 	    			<div className="Resume-Text">
-	    				Took part in the production and performance of a piece entitled the “The Sound of Dreaming”, headed by Nona Hendryx and Dr. Richard Boulanger, which premiered at Moogfest 2017 with a repeat performance at Mass MoCA. Duties included developing a set of custom patches for my Csound based Vocal Effects Processor, which was prominently featured in the piece, as well as performing on bass and DJ equipment, learning and managing several alternate controller systems, and circuit-bending toys for use as sound-making props. 
+	    				Took part in the production and performance of a piece entitled the “The Sound of Dreaming”, headed by Nona Hendryx and Dr. Richard Boulanger, which premiered at Moogfest 2017 with a repeat performance at Mass MoCA. Contributions included developing a Csound based Vocal Effects Processor, which featured prominently in the piece, as well as performing on bass and DJ equipment, learning and managing several controller systems, and circuit-bending toys for use as sound-making props.
 	    			</div>
-	    			<div className="Resume-Entry-Header">Reverb Plugin Design [2017]</div>
-	    			<div className="Resume-Text">Designed and programmed a Reverb Plugin, implemented in Audio Unit and VST format. Included the design of a reverb algorithm and the creation of a unique feature set, as well as C++ implementation using the JUCE framework and the design of a custom GUI. </div>
-	    			<div className="Resume-Entry-Header">Firmware Programming for Csound Based Eurorack Module [2017]</div>
-	    			<div className="Resume-Text">Programming of firmware on a Eurorack module that allows users to easily implement Csound patches in a hardware format, in collaboration with the modular synthesizer company Instruo, which provided the hardware design. Includes creation of an interface for easily uploading Csound patches, setting up control signal and audio input and output, as well as programming an LCD text display. </div>
-	    			<div className="Resume-Entry-Header">Design of Csound Based Multi-Effects Pedal for Guitar and Vocals [2016]</div>
-	    			<div className="Resume-Text">Implemented the Csound audio programming language on the Raspberry Pi microware computer for processing audio in real time, a project which included designing appropriate amplification stages for both mic and line level input, setting up audio codec support, designing a custom midi controller to pass analog control values into Csound.</div>
+	    			
 	    		</div>
+
+	    		    			<div className="Resume-Section">
+	    			<div className="Resume-Section-Header">Additional Experience</div>
+
+	    			<div className="Resume-Entry-Header">Reverb Plugin Design [2017]</div>
+	    			<div className="Resume-Text">Designed and programmed a Reverb Plugin using C++/JUCE as part of my thesis project at Berklee College of Music. </div>
+	    			
+	    		</div>
+
     			<div className="Resume-Section">
 	    			<div className="Resume-Section-Header">Skills</div>
 	    			<div className="Resume-Entry-Header">Programming</div>
 	    			<div className="Resume-Text">
-	    				C, C++ (including JUCE Framwork), Objective C, Javascript (including React framework), C# (including Unity), Golang, SQL, Python, Csound, Max/MSP, Linux (including Raspberry Pi), Assembly Language, HTML/CSS, Includes Experience Programming Microcontrollers and Embedded Processors (Sharc, SPIN FV-1, PIC32/16, STM32, ATMega, etc.)
+	    				C, C++ (including JUCE Framwork), Max/MSP, Javascript (including React), Processing, Python, Linux (including Raspberry Pi), Assembly Languages, Includes Experience Programming Microcontrollers and Embedded Processors (Sharc DSP, SPIN FV-1, PIC32/16, STM32, ATMega, etc.)
 	    			</div>
-	    			<div className="Resume-Entry-Header">Electronics</div>	
-	    			<div className="Resume-Text">
-	    				Circuit Board Layout, Production Line Experience with Soldering and Construction of Audio Hardware, Schematic and Circuit Board Reading, Oscilloscope Use, Effects Pedal Repair and Design, Guitar Electronics Repair, Microphone Construction, Studio Monitor Construction
-	    			</div> 
+
 	    			<div className="Resume-Entry-Header">Software</div>	
 	    			<div className="Resume-Text">
-	    				Proficient with Logic, Pro Tools, Ableton Live, Reason, Garageband, Xcode, Unity, Sigma Studio, TrueStudio, MPLAB X, Premiere, After Effects, Finale, Sibelius, Microsoft Office, Photoshop, GIMP
+	    				Proficient with Ableton Live, Logic, Pro Tools, QSYS, Xcode, Unity, Sigma Studio, TrueStudio, MPLAB X, Premiere, After Effects, Finale, Sibelius, Microsoft Office, Photoshop, GIMP
 	    			</div>
+
 	    			<div className="Resume-Entry-Header">Music</div>	
 	    			<div className="Resume-Text">
-	    				Guitar (Electric and Acoustic), Vocals (lead and backup), Bass (Electric), Basic Keyboard, Production, Synthesis, Sound Design, DSP, Recording, Writing and Composition
-	    			</div>   			
+	    				Guitar, Vocals (lead and backup), Bass, Basic Keyboard, Production, Synthesis, Sound Design, DSP, Recording, Writing and Composition
+	    			</div>
+
+	    			<div className="Resume-Entry-Header">Electronics</div>	
+	    			<div className="Resume-Text">
+	    				Circuit Board Layout, Electronics Fabrication for Installations, Production Line Fabrication, Schematic and Circuit Board Reading, Oscilloscope Use, Effects Pedal Repair and Design, Guitar Electronics Repair
+	    			</div> 
+
     			</div>   
+
     			<div className="Resume-Section">
     				<div className="Resume-Section-Header">Education</div>
     				<div className="Resume-Entry-Header">Berklee College of Music, Boston, MA [Graduated May 2017]</div>
     				<div className="Resume-Text">BM in Electronic Production and Design with Minor in Acoustics and Electronics</div>
-    				<div className="Resume-Entry-Header">McCallum High School, Austin, Texas [Graduated 2013]</div>
-    				<div className="Resume-Text">High school degree with music and performing arts concentration.</div>
     			</div>
     			<div className="Resume-Section">
     				<div className="Resume-Section-Header">Awards and Accolades</div>

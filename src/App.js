@@ -71,9 +71,7 @@ class App extends Component {
           <MenuItem text="Music" idfl="Middle-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
           <MenuItem text="Bio" idfl="Middle-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
           <MenuItem text="Contact" idfl="Middle-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
-          <a className="Menu-Divider" id="Last-Item" href="https://hhaudio.github.io/hammerheadaudio/EmmettPalaima_Resume.pdf" type="application/pdf" target="_blank">
-            <div className="Menu-Item" id="Last-Item">Resume</div>
-          </a>
+          <MenuItem text="Resume" idfl="Last-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
         </div>
         <Void/>
         <Content width={this.state.width} height={this.state.height} nav={this.state.NavPage}/>
@@ -86,5 +84,8 @@ class App extends Component {
 export default App;
 
           /*
+                    <a className="Menu-Divider" id="Last-Item" href="https://hhaudio.github.io/hammerheadaudio/EmmettPalaima_Resume.pdf" type="application/pdf" target="_blank">
+            <div className="Menu-Item" id="Last-Item">Resume</div>
+          </a>
           <MenuItem text="Resume" idfl="Middle-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
           */
