@@ -4,6 +4,7 @@ import "./Music.css"
 import "./Content.css"
 
 var ECWVid = 'https://youtu.be/UPa2S_V3Q5g';
+var ECWbio = "Elizabeth Colour Wheel is a five-piece band whose music combines elements of metal, punk, and shoegaze, to create a sound that is both crushing and aggressive while also being highly emotive and textural. They are signed to The Flenser, where they released their debut LP \'Nocebo\' in March of 2019. They have toured throughout the U.S. and shared the stage with acts including: Have a Nice Life, Planning for Burial, Jerome's Dream, Loma Prieta, Full of Hell, Primitive Man, Big Brave, Sannhet, Wreck and Reference and more."
 
 class Music extends Component {
   
@@ -41,7 +42,7 @@ class Music extends Component {
         		<div className="Content-Text-Box">
         			<div className="Content-Title">Elizabeth Colour Wheel</div>
         			<div className="Content-Text">
-                        Say something about ECW
+                        {ECWbio}
                     </div>
         			<div style={{width: bcWidth}} className="Bandcamp-Container">
                         Loading Bandcamp Player...

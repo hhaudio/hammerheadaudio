@@ -7,6 +7,11 @@ class DesignContent extends Component {
   	render() {
   		var playerWidth = this.props.playerWidth;
   		var playerHeight = this.props.playerHeight;
+  		var playing = false;
+
+  		var buyLinkText;
+
+  		if(!this.props.buyLinkText == '')
     //   var heightComp = this.props.height - 180;
   		// if(this.props.width < 460 || heightComp < 216){
   		// 	playerWidth = 288;
@@ -66,7 +71,7 @@ class DesignContent extends Component {
 	  	    				{this.props.designText}
 	  	    			</div>
 	  	    			<a className="Content-Text" id="Purchase-Link" href={this.props.buyLink} target="_blank">
-	  	    				Purchase Here
+	  	    				{this.props.buyLinkText}
 	  	    			</a>
 	  	    			<div style={{height: playerHeight, width: playerWidth}} className="Designs-Video-Container">
 	  	    				Loading Youtube Player...
@@ -80,6 +85,10 @@ class DesignContent extends Component {
 	    }
   	}
 }
+
+DesignContent.defaultProps = {
+  buyLinkText: 'Purchase Here',
+};
 
 export default DesignContent;
 

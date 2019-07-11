@@ -4,26 +4,28 @@ import './Designs.css';
 import DesignContent from './DesignContent.js';
 import DesignMenu from './DesignMenu.js';
 
-var ndaText = 'This is under NDA 🤫';
+var ndaText = 'Please note: Much of my work for MeowWolf falls under an NDA (Non Discloure Agreement) 🤫 Therefore I am not able to discuss specific project details prior to the opening of this installation.';
 
 var waterText = 'Say something about the water tower';
 var waterVid = 'https://www.youtube.com/watch?v=Hr8m814zwwc';
 var waterLink = "none";
 
-var vegasText = 'Say something about Vegas';
-var vegasVid = 'https://www.youtube.com/watch?v=MHV_YR-PuSQ';
-var vegasLink = "none";
+var artLinkText = "Website Here";
 
-var denverText = 'Say something about Denver';
-var denverVid = 'https://www.youtube.com/watch?v=a4AHNNwF5xo';
-var denverLink = "none";
+var vegasText = 'For MeowWolf Las Vegas I am working as part of a small team, providing all sound technology needs for a massive, multi-story, immersive, psychadelic art environment. My work includes all aspects of audio technology required for the installion, including musical robotics, generative audio, spatial audio, interactive audio, audio systems architecture, circuit board design, and creative direction on audio technology for projects. Mine is a highly diverse role in which I work with almost every aspect of audio required for an immersive space, from creative concepting to electronics design to programming to installation and beyond.';
+var vegasVid = 'https://www.youtube.com/watch?v=meflEvC64xw';
+var vegasLink = "https://lasvegas.meowwolf.com/";
+
+var denverText = 'For MeowWolf Denver I am working as part of a small team, providing all sound technology needs for a massive, multi-story, immersive, psychadelic art environment. My work includes all aspects of audio technology required for the installion, including musical robotics, generative audio, spatial audio, interactive audio, audio systems architecture, circuit board design, and creative direction on audio technology for projects. Mine is a highly diverse role in which I work with almost every aspect of audio required for an immersive space, from creative concept to electronics design to programming to installation and beyond.';
+var denverVid = 'https://www.youtube.com/watch?v=MMamj5-f-xs';
+var denverLink = "https://denver.meowwolf.com/";
 
 class Art extends Component {
     constructor(props){
       super(props);
 
       this.state = {
-        design: "HoER Water Tower"
+        design: "MeowWolf Las Vegas"
       }
     }
 
@@ -32,6 +34,7 @@ class Art extends Component {
       return (
         <div>
           {ndaText}
+          <br/>
           <br/>
           {text}
         </div>
@@ -68,13 +71,12 @@ class Art extends Component {
 			   <div style={{display: this.props.display}} className="Content-Container">
 	    		<div className="Content-Text-Box">
             <div className="DesignBar" style={{minWidth:"650px"}}>
-  	    			<DesignMenu text="HoER Water Tower" idfl="First-Item" nav={this.state.design} onClick={this.navClicked.bind(this)}/>
-              <DesignMenu text="MeowWolf Las Vegas" idfl="Middle-Item" nav={this.state.design} onClick={this.navClicked.bind(this)}/>
+              <DesignMenu text="MeowWolf Las Vegas" idfl="First-Item" nav={this.state.design} onClick={this.navClicked.bind(this)}/>
               <DesignMenu text="MeowWolf Denver" idfl="Last-Item" nav={this.state.design} onClick={this.navClicked.bind(this)}/>
             </div>
             <DesignContent designText={waterText} vidUrl={waterVid} buyLink={waterLink} display={this.state.design === "HoER Water Tower" ? 'block' : 'none'} playerWidth={playerWidth} playerHeight={playerHeight}/>
-            <DesignContent designText={this.ndaDiv(vegasText)} vidUrl={vegasVid} buyLink={vegasLink} display={this.state.design === "MeowWolf Las Vegas" ? 'block' : 'none'} playerWidth={playerWidth} playerHeight={playerHeight}/>
-	    	    <DesignContent designText={this.ndaDiv(denverText)} subText='Photo Credit: Kate Russel' vidUrl={denverVid} buyLink={denverLink} display={this.state.design === "MeowWolf Denver" ? 'block' : 'none'} playerWidth={playerWidth} playerHeight={playerHeight}/>
+            <DesignContent designText={this.ndaDiv(vegasText)} subText='Video Credit: MeowWolf Entertainment' vidUrl={vegasVid} buyLink={vegasLink} buyLinkText={artLinkText} display={this.state.design === "MeowWolf Las Vegas" ? 'block' : 'none'} playerWidth={playerWidth} playerHeight={playerHeight}/>
+	    	    <DesignContent designText={this.ndaDiv(denverText)} subText='Video Credit: MeowWolf Entertainment' vidUrl={denverVid} buyLink={denverLink} buyLinkText={artLinkText} display={this.state.design === "MeowWolf Denver" ? 'block' : 'none'} playerWidth={playerWidth} playerHeight={playerHeight}/>
           </div>
 	    	</div>
     	);
@@ -84,4 +86,5 @@ class Art extends Component {
 export default Art;
 /*
 {this.ndaDiv(denverText)}
+<DesignMenu text="HoER Water Tower" idfl="First-Item" nav={this.state.design} onClick={this.navClicked.bind(this)}/>
 */
