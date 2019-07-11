@@ -70,7 +70,7 @@ class Art extends Component {
     	return (
 			   <div style={{display: this.props.display}} className="Content-Container">
 	    		<div className="Content-Text-Box">
-            <div className="DesignBar" style={{minWidth:"650px"}}>
+            <div className="DesignBar">
               <DesignMenu text="MeowWolf Las Vegas" idfl="First-Item" nav={this.state.design} onClick={this.navClicked.bind(this)}/>
               <DesignMenu text="MeowWolf Denver" idfl="Last-Item" nav={this.state.design} onClick={this.navClicked.bind(this)}/>
             </div>

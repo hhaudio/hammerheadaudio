@@ -87,7 +87,7 @@ class Designs extends Component {
     	return (
 			   <div style={{display: this.props.display}} className="Content-Container">
 	    		<div className="Content-Text-Box">
-            <div className="DesignBar" style={{minWidth:"480px"}}>
+            <div className="DesignBar">
   	    			<DesignMenu text="Ghost Fax" idfl="First-Item" nav={this.state.design} onClick={this.navClicked.bind(this)}/>
               <DesignMenu text="Hax II" idfl="Middle-Item" nav={this.state.design} onClick={this.navClicked.bind(this)}/>
               <DesignMenu text="The Abyss" idfl="Middle-Item" nav={this.state.design} onClick={this.navClicked.bind(this)}/>

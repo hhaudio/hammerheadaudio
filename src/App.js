@@ -3,7 +3,7 @@ import './App.css';
 import Void from "./Void.js";
 import Content from "./Content.js";
 import MenuItem from "./MenuItem.js";
-import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player'; 
 
 var headerPos;
 var navPos;
@@ -71,8 +71,8 @@ class App extends Component {
           <MenuItem text="Music" idfl="Middle-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
           <MenuItem text="Bio" idfl="Middle-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
           <MenuItem text="Contact" idfl="Middle-Item" nav={this.state.NavPage} onClick={this.navClicked.bind(this)}/>
-          <a className="Menu-Divider" id="Last-Item" href="EmmettPalaima_Resume.pdf" target="_blank">
-            <div className="Menu-Item" id="Last-Item" href="EmmettPalaima_Resume.pdf" target="_blank">Resume</div>
+          <a className="Menu-Divider" id="Last-Item" href="EmmettPalaima_Resume.pdf" type="application/pdf" target="_blank">
+            <div className="Menu-Item" id="Last-Item">Resume</div>
           </a>
         </div>
         <Void/>
