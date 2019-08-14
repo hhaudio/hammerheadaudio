@@ -81,7 +81,7 @@ class Resume extends Component {
     			</div>
 
     			<div className="Resume-Section">
-	    			<div className="Resume-Section-Header">Additional Experience</div>
+	    			<div className="Resume-Section-Header">Performance Experience</div>
 	    			<div className="Resume-Entry-Header">Elizabeth Colour Wheel [2014-Present]</div>
 	    			<div className="Resume-Text">
 	    				Play guitar in a 5-piece band signed to The Flenser, on which we released our debut LP ‘Nocebo’ in March of 2019. We have toured throughout the United States and shared the stage with such acts as Have a Nice Life, Planning for Burial, Drowse, Full of Hell, Primitive Man, Jerome’s Dream, Loma Prieta, Big Brave, Sannhet, Street Sects, and more.
