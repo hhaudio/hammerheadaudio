@@ -13,6 +13,9 @@ class Contact extends Component {
 	    			<div className="Resume-Text">Santa Fe, NM, 87501</div>
                     <div className="Resume-Text">
                         Find me on: 
+                        <a className="Resume-Text" id="LinkedIn" href="https://www.instagram.com/hammerhead_audio/" target="_blank">
+                            Instagram
+                        </a>
                         <a className="Resume-Text" id="LinkedIn" href="https://www.linkedin.com/in/emmett-palaima-b20012140/" target="_blank">
                             LinkedIn
                         </a>

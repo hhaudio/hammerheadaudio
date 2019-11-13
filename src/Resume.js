@@ -35,7 +35,8 @@ technical, problem solving, and creative skills.</div>
     				<div className="Resume-Entry-Header">Sound Technologist - Meow Wolf [04/18-Present]</div>
 	    			<div className="Resume-Text">Provide for audio technology needs of large scale immersive art installations, including:</div>
 	    			<ul className="Resume-List">
-	    				<li className="Resume-List-Text">Creative direction for interactive and generative audio</li>
+	    				<li className="Resume-List-Text">Creative direction, interactive and generative audio, musical robotics, composition and
+sound design</li>
 	    				<li className="Resume-List-Text">Collaborative work with other artists</li>
 	    				<li className="Resume-List-Text">Circuit board design</li>
 	    				<li className="Resume-List-Text">Software and firmware programming</li>
@@ -54,20 +55,19 @@ technical, problem solving, and creative skills.</div>
     				<div className="Resume-Entry-Header">Guitarist - Elizabeth Colour Wheel [01/14-Present]</div>
 	    			<div className="Resume-Text">Play guitar with the internationally touring band Elizabeth Colour Wheel, signed to The Flenser record label.</div>
 
-	    			<div className="Resume-Entry-Header">The Sound of Dreaming [01/17-08/17]</div>
-	    			<div className="Resume-Text">Took part in the rehearsal and performance of an electronic dream opera entitled 'The Sound of Dreaming', which premiered at Moogfest 2017 with a repeat performance at Mass MoCA.</div>
+	    			<div className="Resume-Entry-Header">The Sound of Dreaming - Nona Hendryx, Dr. Richard Boulanger [01/17-08/17]</div>
+	    			<div className="Resume-Text">Took part in the production and performance of an electronic opera entitled 'The Sound of Dreaming', which premiered at Moogfest 2017 with a repeat performance at Mass MoCA.</div>
 
 	    			<div className="Resume-Entry-Header">Electronic Production and Design Department Tutor - Berklee College of Music [01/17-06/17]</div>
-	    			<div className="Resume-Text">Worked as tutor helping students with all aspects of the Electronic Production and Design curriculum, including Audio Production Software, Audio Programming, and Sound Design.</div>
+	    			<div className="Resume-Text">Worked as tutor helping students with all aspects of the Electronic Production and Design curriculum, including audio production software, audio programming, and sound design.</div>
     			</div> 
 
     			<div className="Resume-Section">
     				<div className="Resume-Section-Header">Education</div>
     				<div className="Resume-Entry-Header">Bachelor of Music - Electronic Production and Design - Berklee College of Music, Boston, MA [05/17]</div>
     				<ul className="Resume-List">
-	    				<li className="Resume-List-Text">Designed a Reverb Plug-In using JUCE/C++ as thesis project</li>
-	    				<li className="Resume-List-Text">Guitar Principle Instrument, Minor in Acoustics and Electronics</li>
-						<li className="Resume-List-Text">Graduated Summa Cum Laude</li>
+	    				<li className="Resume-List-Text">Designed a reverb plug-in using JUCE/C++ as thesis project</li>
+						<li className="Resume-List-Text">Graduated Summa Cum Laude, with a Minor in Acoustics and Electronics</li>
 	    			</ul>
     			</div>			
     		</div>
