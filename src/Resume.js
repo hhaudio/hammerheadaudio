@@ -23,7 +23,7 @@ technical, problem solving, and creative skills.</div>
 	    				<div className="Resume-Text">Software and Firmware Programming</div>
 	    				<div className="Resume-Text">Digital Signal Processing</div>
 	    				<div className="Resume-Text">Digital Fabrication</div>
-	    				<div className="Resume-Text">Creative Audio Design</div>
+	    				<div className="Resume-Text">Generative and Interactive Audio</div>
 	    				<div className="Resume-Text">Sound Design</div>
 	    				<div className="Resume-Text">Guitar Performance</div>
 	    				<div className="Resume-Text">Music Composition</div>
